@@ -1,0 +1,22 @@
+# This is a Test data file which include single and multiple records input
+Single_record:
+  birthday:   21111992
+  gender:     F
+  name:       KAmani
+  natid:      KKD32ABS
+  salary:     22388883
+  tax:        22
+
+Multiple_records:
+  - birthday: 21111992
+    gender: F
+    name:  Kristine
+    natid: QQD32ABS
+    salary: 18388883
+    tax: 12
+  - birthday: 10111992
+    gender: M
+    name: Harshil
+    natid: LKLD32ABS
+    salary: 7568883
+    tax: 21

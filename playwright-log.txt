@@ -1,0 +1,765 @@
+{"level":30,"time":"2022-10-02T15:30:35.231Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Listening on 49292"}
+{"level":30,"time":"2022-10-02T15:30:35.308Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-10-02T15:30:35.309Z","pid":63575,"hostname":"C02DX17RML7H","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-10-02T15:30:35.315Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-10-02T15:30:35.315Z","pid":63575,"hostname":"C02DX17RML7H","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-10-02T15:30:42.751Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.752Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:42.768Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.768Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:42.782Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.782Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:42.796Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.797Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:42.810Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.810Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:42.824Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.824Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:42.837Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.838Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:42.850Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.851Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:42.866Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.866Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:42.882Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.883Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:42.901Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.901Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:42.917Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.918Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:42.935Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.936Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:42.954Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.954Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:42.971Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.972Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:42.988Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:42.989Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.003Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.003Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.019Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.019Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.035Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.035Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.050Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.050Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.066Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.067Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.084Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.084Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.100Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.100Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.118Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.119Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.137Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.137Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.154Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.155Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.172Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.172Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.188Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.189Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.207Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.207Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.223Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.224Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.242Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.242Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.260Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.260Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.276Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.277Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.294Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.295Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.312Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.313Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.328Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.329Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.348Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.348Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.361Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.362Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.379Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.379Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.396Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.397Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.416Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.417Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.433Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.434Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.450Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.450Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.466Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.466Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.481Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.481Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.496Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.496Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.511Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.512Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.529Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.529Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.547Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.547Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.563Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.563Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.580Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.580Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.598Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.599Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.615Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.615Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.633Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.633Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.650Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.650Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.663Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.663Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.678Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.678Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.693Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.693Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.710Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.710Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.729Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.730Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.746Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.747Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.761Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getElementAttribute"}
+{"level":30,"time":"2022-10-02T15:30:43.761Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  getElementAttribute"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at findLocator (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6723:3)
+    at getAttributeValue (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7369:25)
+    at getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:7362:25)
+    at PlaywrightServer.getElementAttribute (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.766Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2022-10-02T15:30:43.767Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6857:11)
+    at takeScreenshot (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:6894:3)
+    at PlaywrightServer.takeScreenshot (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:8484:34)
+    at handleUnary (/Users/hkapoor/Oppenheimer/Oppenheimer/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:688:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+=============================================================
+{"level":30,"time":"2022-10-02T15:30:43.777Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-10-02T15:30:43.778Z","pid":63575,"hostname":"C02DX17RML7H","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-10-02T15:30:43.783Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2022-10-02T15:30:43.783Z","pid":63575,"hostname":"C02DX17RML7H","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2022-10-02T15:30:43.811Z","pid":63575,"hostname":"C02DX17RML7H","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2022-10-02T15:30:43.811Z","pid":63575,"hostname":"C02DX17RML7H","msg":"End of node method closeAllBrowsers"}
