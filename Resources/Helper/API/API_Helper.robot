@@ -1,6 +1,5 @@
 *** Settings ***
 Library     RequestsLibrary
-Library     Collection
 
 *** Keywords ***
 Make a GET API Request with

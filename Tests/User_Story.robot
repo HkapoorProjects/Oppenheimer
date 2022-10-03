@@ -10,7 +10,7 @@ Test Teardown    close browser
 *** Variables ***
 ${Base_URL}=                http://localhost:8080/
 ${Dispense_button}=         //*[@class= 'btn btn-danger btn-block']
-${Red_Color}                rgb(200, 35, 51)
+${Red_Color}                rgb(220, 53, 69)
 ${Style_Attribute}          text
 ${cash_dispensed_text}=     //*[@class='display-4 font-weight-bold']
 &{Request_header}=          Content-Type=application/json
@@ -50,8 +50,12 @@ TC_4: Query the amount of taxRelief for each person in the database
 TC_5: Dispense tax relief for working class heroes
     [Documentation]    This test case can Dispense tax relief for working class heroes
     Navigate to Oppenheimer Project
-#    ${color}=    Get Element Attribute    ${Dispense_button}    style
-#    ${text}=    Get Text    ${Dispense_button}
+    ${style}=     Execute Javascript    return getComputedStyle(document.querySelector('a.btn.btn-danger.btn-block')).getPropertyValue('background-color')
+    should be equal    ${style}    ${Red_Color}
     Element Text Should Be    ${Dispense_button}    Dispense Now
     Dispense taxRelief    ${Dispense_button}
     Element Text Should Be    ${cash_dispensed_text}    Cash dispensed
+
+
+
+
