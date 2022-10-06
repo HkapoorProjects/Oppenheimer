@@ -1,0 +1,61 @@
+# This is a Test data file which include single and multiple records input
+Single_record:
+  birthday:   21111992
+  gender:     F
+  name:       KAmani
+  natid:      KKD32ABS
+  salary:     22388883
+  tax:        22
+
+Multiple_records:
+  - birthday: 21111992
+    gender: F
+    name:  Kristine
+    natid: QQD32ABS
+    salary: 18388883
+    tax: 12
+  - birthday: 10111992
+    gender: M
+    name: Harshil
+    natid: LKLD32ABS
+    salary: 7568883
+    tax: 21
+
+Incorrect_record:
+  - birthday: 21111992
+    natid: QQD32ABS
+    salary: 18388883
+    tax: 12
+  - birthday: 10111992
+    gender: M
+    name: Harshil
+
+Incorrect_Gender_format:
+ - birthday: 21111992
+   gender: Male
+   name: Krishna
+   natid: HKR1233
+   salary: 565658
+   tax: 32
+ - birthday: 21111992
+   gender: Male
+   name: Krishna
+   natid: HKR1233
+   salary: 565658
+   tax: 32
+
+Incorrect_birthday_format:
+ - birthday: 19951122
+   gender: F
+   name: Shristi
+   natid: JJKK4545
+   salary: 22388883
+   tax: 2
+ - birthday: 19951122
+   gender: F
+   name: Simran
+   natid: JJKK4545
+   salary: 22388883
+   tax: 25
+
+

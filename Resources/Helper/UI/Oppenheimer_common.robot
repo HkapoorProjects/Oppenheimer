@@ -12,6 +12,7 @@ ${Base_URL}=            http://localhost:8080/
 Navigate to Oppenheimer Project
     [Documentation]    Navigate to the Oppenheimer Project page
     Open Browser    ${base_URL}    chrome
+    Set Screenshot Directory    EMBED
     Maximize Browser Window
 
 Upload File

@@ -20,3 +20,26 @@ Multiple_records:
     natid: LKLD32ABS
     salary: 7568883
     tax: 21
+
+Incorrect_record:
+  birthday: 21111992
+  gender: F
+  name: Kirti
+
+Incorrect_Gender_format:
+  birthday: 21111992
+  gender: Male
+  name: Krishna
+  natid: HKR1233
+  salary: 565658
+  tax: 32
+
+Incorrect_birthday_format:
+  birthday: 19951122
+  gender: F
+  name: Shristi
+  natid: JJKK4545
+  salary: 22388883
+  tax: 2
+
+
