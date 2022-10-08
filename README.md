@@ -50,14 +50,11 @@ pip3 install -r requirements.txt
 -   ### Chromedriver
     For running UI test cases you will need to download chromedriver. Check your current chrome version and download a relevant chromedriver from https://chromedriver.chromium.org/downloads.
 
-## Some Points which was not clear:
-- ###  There is no documentation regarding the type of records
-- ###  While running the post api for multiple record entry, dev mistakenly use https instead of http for local testing
-- ###  Post request should thow an error when length of 'NATID' is less than 4 char, rather breaking the index call
+## Importing Python File
+-    if using underscore in Py file while creating a function and import in robot file we can remove underscore and add spaces as required in robot file
 
-
-
-
+## Formatter Used i.e Robotidy
+- In this project, robotidy formatter is used and updated same in requirements.txt to import
 
 
 ## Reference documents

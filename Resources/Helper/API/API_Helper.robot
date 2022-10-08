@@ -39,10 +39,6 @@ Verify the API Response body contains Error Message
     ${response_body} =  convert to string  ${API_RESPONSE.content}
     Should Contain    ${response_body}      ${error_msg}
 
-Verify the API Response body has empty list
-    ${response_body} =  convert to string  ${API_RESPONSE.content}
-    Should Be Equal As Strings  ${response_body}  []
-
 Get python object for JSON
      [Arguments]  ${json_value}
     ${python_data}  evaluate  json.loads('''${json_value}''')    json

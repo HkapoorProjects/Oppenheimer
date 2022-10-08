@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1 (Python 3.9.7 on win32)" generated="20221006 23:53:00.832" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1 (Python 3.9.7 on win32)" generated="20221008 17:00:05.340" rpa="false" schemaversion="2">
 <suite id="s1" name="Tests" source="C:\Users\kapoo\Downloads\Compressed\Oppenheimer-20221002T171833Z-001\Oppenheimer\Oppenheimer\Tests">
 <suite id="s1-s1" name="User Story 1" source="C:\Users\kapoo\Downloads\Compressed\Oppenheimer-20221002T171833Z-001\Oppenheimer\Oppenheimer\Tests\User_Story_1.robot">
 <test id="s1-s1-t1" name="TC_1: Insert a single record of working class">
@@ -12,8 +12,8 @@
 <arg>&lt;b&gt;Domain_URL: ${URL}&lt;br&gt;Path: ${Path}&lt;br&gt;Request Headers: ${json_header}&lt;br&gt;Request Body: ${json_body}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.146" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insert&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: {'birthday': 21111992, 'gender': 'F', 'name': 'KAmani', 'natid': 'KKD32ABS', 'salary': 22388883, 'tax': 22}&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.145" endtime="20221006 23:53:01.146"/>
+<msg timestamp="20221008 17:00:05.659" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insert&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: {'birthday': 21111992, 'gender': 'F', 'name': 'KAmani', 'natid': 'KKD32ABS', 'salary': 22388883, 'tax': 22}&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.659" endtime="20221008 17:00:05.659"/>
 </kw>
 <kw name="Create Custom Session" library="RequestsLibrary">
 <arg>API_POST</arg>
@@ -21,8 +21,8 @@
 <arg>auth=${EMPTY}</arg>
 <arg>disable_warnings=1</arg>
 <doc>Create Session: create a HTTP session to a server</doc>
-<msg timestamp="20221006 23:53:01.147" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20221006 23:53:01.146" endtime="20221006 23:53:01.147"/>
+<msg timestamp="20221008 17:00:05.659" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20221008 17:00:05.659" endtime="20221008 17:00:05.659"/>
 </kw>
 <kw name="Post Request" library="RequestsLibrary">
 <var>${API_RESPONSE}</var>
@@ -32,17 +32,17 @@
 <arg>data=${json_body}</arg>
 <doc>Send a POST request on the session object found using the
 given `alias`</doc>
-<msg timestamp="20221006 23:53:01.424" level="INFO">POST Request : url=http://localhost:8080//calculator/insert 
+<msg timestamp="20221008 17:00:05.675" level="INFO">POST Request : url=http://localhost:8080//calculator/insert 
  path_url=//calculator/insert 
  headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '107'} 
  body={"birthday": 21111992, "gender": "F", "name": "KAmani", "natid": "KKD32ABS", "salary": 22388883, "tax": 22} 
  </msg>
-<msg timestamp="20221006 23:53:01.424" level="INFO">POST Response : url=http://localhost:8080//calculator/insert 
+<msg timestamp="20221008 17:00:05.675" level="INFO">POST Response : url=http://localhost:8080//calculator/insert 
  status=202, reason= 
  body=Alright 
  </msg>
-<msg timestamp="20221006 23:53:01.424" level="INFO">${API_RESPONSE} = &lt;Response [202]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.147" endtime="20221006 23:53:01.424"/>
+<msg timestamp="20221008 17:00:05.675" level="INFO">${API_RESPONSE} = &lt;Response [202]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.659" endtime="20221008 17:00:05.675"/>
 </kw>
 <kw name="Log Many" library="BuiltIn">
 <arg>Response Status Code:</arg>
@@ -52,21 +52,21 @@ given `alias`</doc>
 <arg>Response Headers:</arg>
 <arg>${API_RESPONSE.headers}</arg>
 <doc>Logs the given messages as separate entries using the INFO level.</doc>
-<msg timestamp="20221006 23:53:01.425" level="INFO">Response Status Code:</msg>
-<msg timestamp="20221006 23:53:01.426" level="INFO">202</msg>
-<msg timestamp="20221006 23:53:01.426" level="INFO">Response Body:</msg>
-<msg timestamp="20221006 23:53:01.427" level="INFO">Alright</msg>
-<msg timestamp="20221006 23:53:01.427" level="INFO">Response Headers:</msg>
-<msg timestamp="20221006 23:53:01.428" level="INFO">{'Content-Type': 'text/plain;charset=UTF-8', 'Content-Length': '7', 'Date': 'Thu, 06 Oct 2022 18:23:01 GMT'}</msg>
-<status status="PASS" starttime="20221006 23:53:01.424" endtime="20221006 23:53:01.428"/>
+<msg timestamp="20221008 17:00:05.675" level="INFO">Response Status Code:</msg>
+<msg timestamp="20221008 17:00:05.675" level="INFO">202</msg>
+<msg timestamp="20221008 17:00:05.675" level="INFO">Response Body:</msg>
+<msg timestamp="20221008 17:00:05.675" level="INFO">Alright</msg>
+<msg timestamp="20221008 17:00:05.690" level="INFO">Response Headers:</msg>
+<msg timestamp="20221008 17:00:05.690" level="INFO">{'Content-Type': 'text/plain;charset=UTF-8', 'Content-Length': '7', 'Date': 'Sat, 08 Oct 2022 11:30:05 GMT'}</msg>
+<status status="PASS" starttime="20221008 17:00:05.675" endtime="20221008 17:00:05.690"/>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <arg>${API_RESPONSE}</arg>
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
-<msg timestamp="20221006 23:53:01.429" level="INFO">${API_RESPONSE} = &lt;Response [202]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.428" endtime="20221006 23:53:01.429"/>
+<msg timestamp="20221008 17:00:05.690" level="INFO">${API_RESPONSE} = &lt;Response [202]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.690" endtime="20221008 17:00:05.690"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.145" endtime="20221006 23:53:01.429"/>
+<status status="PASS" starttime="20221008 17:00:05.659" endtime="20221008 17:00:05.690"/>
 </kw>
 <kw name="Verify the API Response Code is" library="API_Helper">
 <arg>202</arg>
@@ -74,24 +74,24 @@ given `alias`</doc>
 <arg>&lt;b&gt;Actual Response Status Code: ${API_RESPONSE.status_code}&lt;br&gt;Expected Response Status Code: ${expected_status_code}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.432" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 202&lt;br&gt;Expected Response Status Code: 202&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.430" endtime="20221006 23:53:01.432"/>
+<msg timestamp="20221008 17:00:05.690" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 202&lt;br&gt;Expected Response Status Code: 202&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.690" endtime="20221008 17:00:05.690"/>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <arg>${API_RESPONSE.status_code}</arg>
 <arg>${expected_status_code}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<msg timestamp="20221006 23:53:01.433" level="INFO">Argument types are:
+<msg timestamp="20221008 17:00:05.690" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.432" endtime="20221006 23:53:01.433"/>
+<status status="PASS" starttime="20221008 17:00:05.690" endtime="20221008 17:00:05.690"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.430" endtime="20221006 23:53:01.434"/>
+<status status="PASS" starttime="20221008 17:00:05.690" endtime="20221008 17:00:05.690"/>
 </kw>
 <doc>This test case can add single record in database via Post API</doc>
 <tag>regression</tag>
 <tag>sanity</tag>
-<status status="PASS" starttime="20221006 23:53:01.144" endtime="20221006 23:53:01.434"/>
+<status status="PASS" starttime="20221008 17:00:05.659" endtime="20221008 17:00:05.690"/>
 </test>
 <test id="s1-s1-t2" name="TC_2: Insert a list of records and validate the response">
 <kw name="Make a POST API Request with" library="API_Helper">
@@ -103,8 +103,8 @@ given `alias`</doc>
 <arg>&lt;b&gt;Domain_URL: ${URL}&lt;br&gt;Path: ${Path}&lt;br&gt;Request Headers: ${json_header}&lt;br&gt;Request Body: ${json_body}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.438" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insert&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: [{'birthday': 21111992, 'gender': 'F', 'name': 'Kristine', 'natid': 'QQD32ABS', 'salary': 18388883, 'tax': 12}, {'birthday': 10111992, 'gender': 'M', 'name': 'Harshil', 'natid': 'LKLD32ABS', 'salary': 7568883, 'tax': 21}]&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.437" endtime="20221006 23:53:01.438"/>
+<msg timestamp="20221008 17:00:05.706" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insert&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: [{'birthday': 21111992, 'gender': 'F', 'name': 'Kristine', 'natid': 'QQD32ABS', 'salary': 18388883, 'tax': 12}, {'birthday': 10111992, 'gender': 'M', 'name': 'Harshil', 'natid': 'LKLD32ABS', 'salary': 7568883, 'tax': 21}]&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.706" endtime="20221008 17:00:05.706"/>
 </kw>
 <kw name="Create Custom Session" library="RequestsLibrary">
 <arg>API_POST</arg>
@@ -112,8 +112,8 @@ given `alias`</doc>
 <arg>auth=${EMPTY}</arg>
 <arg>disable_warnings=1</arg>
 <doc>Create Session: create a HTTP session to a server</doc>
-<msg timestamp="20221006 23:53:01.439" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20221006 23:53:01.438" endtime="20221006 23:53:01.439"/>
+<msg timestamp="20221008 17:00:05.706" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20221008 17:00:05.706" endtime="20221008 17:00:05.706"/>
 </kw>
 <kw name="Post Request" library="RequestsLibrary">
 <var>${API_RESPONSE}</var>
@@ -123,17 +123,17 @@ given `alias`</doc>
 <arg>data=${json_body}</arg>
 <doc>Send a POST request on the session object found using the
 given `alias`</doc>
-<msg timestamp="20221006 23:53:01.488" level="INFO">POST Request : url=http://localhost:8080//calculator/insert 
+<msg timestamp="20221008 17:00:05.737" level="INFO">POST Request : url=http://localhost:8080//calculator/insert 
  path_url=//calculator/insert 
  headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '221'} 
  body=[{"birthday": 21111992, "gender": "F", "name": "Kristine", "natid": "QQD32ABS", "salary": 18388883, "tax": 12}, {"birthday": 10111992, "gender": "M", "name": "Harshil", "natid": "LKLD32ABS", "salary": 7568883, "tax": 21}] 
  </msg>
-<msg timestamp="20221006 23:53:01.488" level="INFO">POST Response : url=http://localhost:8080//calculator/insert 
+<msg timestamp="20221008 17:00:05.737" level="INFO">POST Response : url=http://localhost:8080//calculator/insert 
  status=400, reason= 
- body={"timestamp":"2022-10-06T18:23:01.462+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize instance of `com.govtech.sampleservice.service.dtos.WorkingClassHeroDto` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `com.govtech.sampleservice.service.dtos.WorkingClassHeroDto` out of START_ARRAY token\n at [Source: (PushbackInputStream); line: 1, column: 1]","path":"//calculator/insert"} 
+ body={"timestamp":"2022-10-08T11:30:05.721+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize instance of `com.govtech.sampleservice.service.dtos.WorkingClassHeroDto` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `com.govtech.sampleservice.service.dtos.WorkingClassHeroDto` out of START_ARRAY token\n at [Source: (PushbackInputStream); line: 1, column: 1]","path":"//calculator/insert"} 
  </msg>
-<msg timestamp="20221006 23:53:01.488" level="INFO">${API_RESPONSE} = &lt;Response [400]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.439" endtime="20221006 23:53:01.488"/>
+<msg timestamp="20221008 17:00:05.737" level="INFO">${API_RESPONSE} = &lt;Response [400]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.706" endtime="20221008 17:00:05.737"/>
 </kw>
 <kw name="Log Many" library="BuiltIn">
 <arg>Response Status Code:</arg>
@@ -143,21 +143,21 @@ given `alias`</doc>
 <arg>Response Headers:</arg>
 <arg>${API_RESPONSE.headers}</arg>
 <doc>Logs the given messages as separate entries using the INFO level.</doc>
-<msg timestamp="20221006 23:53:01.489" level="INFO">Response Status Code:</msg>
-<msg timestamp="20221006 23:53:01.490" level="INFO">400</msg>
-<msg timestamp="20221006 23:53:01.490" level="INFO">Response Body:</msg>
-<msg timestamp="20221006 23:53:01.491" level="INFO">{"timestamp":"2022-10-06T18:23:01.462+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize instance of `com.govtech.sampleservice.service.dtos.WorkingClassHeroDto` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `com.govtech.sampleservice.service.dtos.WorkingClassHeroDto` out of START_ARRAY token\n at [Source: (PushbackInputStream); line: 1, column: 1]","path":"//calculator/insert"}</msg>
-<msg timestamp="20221006 23:53:01.491" level="INFO">Response Headers:</msg>
-<msg timestamp="20221006 23:53:01.492" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Thu, 06 Oct 2022 18:23:01 GMT', 'Connection': 'close'}</msg>
-<status status="PASS" starttime="20221006 23:53:01.488" endtime="20221006 23:53:01.492"/>
+<msg timestamp="20221008 17:00:05.737" level="INFO">Response Status Code:</msg>
+<msg timestamp="20221008 17:00:05.737" level="INFO">400</msg>
+<msg timestamp="20221008 17:00:05.737" level="INFO">Response Body:</msg>
+<msg timestamp="20221008 17:00:05.737" level="INFO">{"timestamp":"2022-10-08T11:30:05.721+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize instance of `com.govtech.sampleservice.service.dtos.WorkingClassHeroDto` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `com.govtech.sampleservice.service.dtos.WorkingClassHeroDto` out of START_ARRAY token\n at [Source: (PushbackInputStream); line: 1, column: 1]","path":"//calculator/insert"}</msg>
+<msg timestamp="20221008 17:00:05.737" level="INFO">Response Headers:</msg>
+<msg timestamp="20221008 17:00:05.737" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 08 Oct 2022 11:30:05 GMT', 'Connection': 'close'}</msg>
+<status status="PASS" starttime="20221008 17:00:05.737" endtime="20221008 17:00:05.737"/>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <arg>${API_RESPONSE}</arg>
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
-<msg timestamp="20221006 23:53:01.493" level="INFO">${API_RESPONSE} = &lt;Response [400]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.492" endtime="20221006 23:53:01.493"/>
+<msg timestamp="20221008 17:00:05.737" level="INFO">${API_RESPONSE} = &lt;Response [400]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.737" endtime="20221008 17:00:05.737"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.436" endtime="20221006 23:53:01.493"/>
+<status status="PASS" starttime="20221008 17:00:05.706" endtime="20221008 17:00:05.737"/>
 </kw>
 <kw name="Verify the API Response Code is" library="API_Helper">
 <arg>400</arg>
@@ -165,19 +165,19 @@ given `alias`</doc>
 <arg>&lt;b&gt;Actual Response Status Code: ${API_RESPONSE.status_code}&lt;br&gt;Expected Response Status Code: ${expected_status_code}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.495" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 400&lt;br&gt;Expected Response Status Code: 400&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.494" endtime="20221006 23:53:01.496"/>
+<msg timestamp="20221008 17:00:05.753" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 400&lt;br&gt;Expected Response Status Code: 400&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.737" endtime="20221008 17:00:05.753"/>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <arg>${API_RESPONSE.status_code}</arg>
 <arg>${expected_status_code}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<msg timestamp="20221006 23:53:01.498" level="INFO">Argument types are:
+<msg timestamp="20221008 17:00:05.753" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.496" endtime="20221006 23:53:01.498"/>
+<status status="PASS" starttime="20221008 17:00:05.753" endtime="20221008 17:00:05.753"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.493" endtime="20221006 23:53:01.498"/>
+<status status="PASS" starttime="20221008 17:00:05.737" endtime="20221008 17:00:05.753"/>
 </kw>
 <kw name="Verify the API Response body contains Error Message" library="API_Helper">
 <arg>Bad Request</arg>
@@ -185,20 +185,20 @@ given `alias`</doc>
 <var>${response_body}</var>
 <arg>${API_RESPONSE.content}</arg>
 <doc>Converts the given item to a Unicode string.</doc>
-<msg timestamp="20221006 23:53:01.500" level="INFO">${response_body} = {"timestamp":"2022-10-06T18:23:01.462+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize instance of `com.govtech.sampleservice.service.dtos.WorkingClassHeroDto` ...</msg>
-<status status="PASS" starttime="20221006 23:53:01.499" endtime="20221006 23:53:01.500"/>
+<msg timestamp="20221008 17:00:05.753" level="INFO">${response_body} = {"timestamp":"2022-10-08T11:30:05.721+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize instance of `com.govtech.sampleservice.service.dtos.WorkingClassHeroDto` ...</msg>
+<status status="PASS" starttime="20221008 17:00:05.753" endtime="20221008 17:00:05.753"/>
 </kw>
 <kw name="Should Contain" library="BuiltIn">
 <arg>${response_body}</arg>
 <arg>${error_msg}</arg>
 <doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
-<status status="PASS" starttime="20221006 23:53:01.500" endtime="20221006 23:53:01.501"/>
+<status status="PASS" starttime="20221008 17:00:05.753" endtime="20221008 17:00:05.753"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.499" endtime="20221006 23:53:01.501"/>
+<status status="PASS" starttime="20221008 17:00:05.753" endtime="20221008 17:00:05.753"/>
 </kw>
 <doc>In this test case will try to add list of json and validate the error response.</doc>
 <tag>regression</tag>
-<status status="PASS" starttime="20221006 23:53:01.435" endtime="20221006 23:53:01.501"/>
+<status status="PASS" starttime="20221008 17:00:05.706" endtime="20221008 17:00:05.753"/>
 </test>
 <test id="s1-s1-t3" name="TC_3: Insert a incorrect record and validate the response">
 <kw name="Make a POST API Request with" library="API_Helper">
@@ -210,8 +210,8 @@ given `alias`</doc>
 <arg>&lt;b&gt;Domain_URL: ${URL}&lt;br&gt;Path: ${Path}&lt;br&gt;Request Headers: ${json_header}&lt;br&gt;Request Body: ${json_body}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.506" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insert&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: {'birthday': 21111992, 'gender': 'F', 'name': 'Kirti'}&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.506" endtime="20221006 23:53:01.506"/>
+<msg timestamp="20221008 17:00:05.769" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insert&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: {'birthday': 21111992, 'gender': 'F', 'name': 'Kirti'}&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.769" endtime="20221008 17:00:05.769"/>
 </kw>
 <kw name="Create Custom Session" library="RequestsLibrary">
 <arg>API_POST</arg>
@@ -219,8 +219,8 @@ given `alias`</doc>
 <arg>auth=${EMPTY}</arg>
 <arg>disable_warnings=1</arg>
 <doc>Create Session: create a HTTP session to a server</doc>
-<msg timestamp="20221006 23:53:01.507" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20221006 23:53:01.506" endtime="20221006 23:53:01.508"/>
+<msg timestamp="20221008 17:00:05.769" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20221008 17:00:05.769" endtime="20221008 17:00:05.769"/>
 </kw>
 <kw name="Post Request" library="RequestsLibrary">
 <var>${API_RESPONSE}</var>
@@ -230,17 +230,17 @@ given `alias`</doc>
 <arg>data=${json_body}</arg>
 <doc>Send a POST request on the session object found using the
 given `alias`</doc>
-<msg timestamp="20221006 23:53:01.562" level="INFO">POST Request : url=http://localhost:8080//calculator/insert 
+<msg timestamp="20221008 17:00:05.784" level="INFO">POST Request : url=http://localhost:8080//calculator/insert 
  path_url=//calculator/insert 
  headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '54'} 
  body={"birthday": 21111992, "gender": "F", "name": "Kirti"} 
  </msg>
-<msg timestamp="20221006 23:53:01.562" level="INFO">POST Response : url=http://localhost:8080//calculator/insert 
+<msg timestamp="20221008 17:00:05.784" level="INFO">POST Response : url=http://localhost:8080//calculator/insert 
  status=500, reason= 
- body={"timestamp":"2022-10-06T18:23:01.556+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"//calculator/insert"} 
+ body={"timestamp":"2022-10-08T11:30:05.784+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"//calculator/insert"} 
  </msg>
-<msg timestamp="20221006 23:53:01.563" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.508" endtime="20221006 23:53:01.563"/>
+<msg timestamp="20221008 17:00:05.784" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.769" endtime="20221008 17:00:05.784"/>
 </kw>
 <kw name="Log Many" library="BuiltIn">
 <arg>Response Status Code:</arg>
@@ -250,21 +250,21 @@ given `alias`</doc>
 <arg>Response Headers:</arg>
 <arg>${API_RESPONSE.headers}</arg>
 <doc>Logs the given messages as separate entries using the INFO level.</doc>
-<msg timestamp="20221006 23:53:01.564" level="INFO">Response Status Code:</msg>
-<msg timestamp="20221006 23:53:01.566" level="INFO">500</msg>
-<msg timestamp="20221006 23:53:01.566" level="INFO">Response Body:</msg>
-<msg timestamp="20221006 23:53:01.566" level="INFO">{"timestamp":"2022-10-06T18:23:01.556+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"//calculator/insert"}</msg>
-<msg timestamp="20221006 23:53:01.566" level="INFO">Response Headers:</msg>
-<msg timestamp="20221006 23:53:01.567" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Thu, 06 Oct 2022 18:23:01 GMT', 'Connection': 'close'}</msg>
-<status status="PASS" starttime="20221006 23:53:01.564" endtime="20221006 23:53:01.567"/>
+<msg timestamp="20221008 17:00:05.784" level="INFO">Response Status Code:</msg>
+<msg timestamp="20221008 17:00:05.800" level="INFO">500</msg>
+<msg timestamp="20221008 17:00:05.800" level="INFO">Response Body:</msg>
+<msg timestamp="20221008 17:00:05.800" level="INFO">{"timestamp":"2022-10-08T11:30:05.784+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"//calculator/insert"}</msg>
+<msg timestamp="20221008 17:00:05.800" level="INFO">Response Headers:</msg>
+<msg timestamp="20221008 17:00:05.800" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 08 Oct 2022 11:30:05 GMT', 'Connection': 'close'}</msg>
+<status status="PASS" starttime="20221008 17:00:05.784" endtime="20221008 17:00:05.800"/>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <arg>${API_RESPONSE}</arg>
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
-<msg timestamp="20221006 23:53:01.568" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.567" endtime="20221006 23:53:01.568"/>
+<msg timestamp="20221008 17:00:05.800" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.800" endtime="20221008 17:00:05.800"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.505" endtime="20221006 23:53:01.568"/>
+<status status="PASS" starttime="20221008 17:00:05.769" endtime="20221008 17:00:05.800"/>
 </kw>
 <kw name="Verify the API Response Code is" library="API_Helper">
 <arg>500</arg>
@@ -272,19 +272,19 @@ given `alias`</doc>
 <arg>&lt;b&gt;Actual Response Status Code: ${API_RESPONSE.status_code}&lt;br&gt;Expected Response Status Code: ${expected_status_code}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.570" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 500&lt;br&gt;Expected Response Status Code: 500&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.569" endtime="20221006 23:53:01.570"/>
+<msg timestamp="20221008 17:00:05.800" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 500&lt;br&gt;Expected Response Status Code: 500&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.800" endtime="20221008 17:00:05.800"/>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <arg>${API_RESPONSE.status_code}</arg>
 <arg>${expected_status_code}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<msg timestamp="20221006 23:53:01.571" level="INFO">Argument types are:
+<msg timestamp="20221008 17:00:05.800" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.570" endtime="20221006 23:53:01.571"/>
+<status status="PASS" starttime="20221008 17:00:05.800" endtime="20221008 17:00:05.800"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.568" endtime="20221006 23:53:01.571"/>
+<status status="PASS" starttime="20221008 17:00:05.800" endtime="20221008 17:00:05.800"/>
 </kw>
 <kw name="Verify the API Response body contains Error Message" library="API_Helper">
 <arg>Internal Server Error</arg>
@@ -292,20 +292,20 @@ given `alias`</doc>
 <var>${response_body}</var>
 <arg>${API_RESPONSE.content}</arg>
 <doc>Converts the given item to a Unicode string.</doc>
-<msg timestamp="20221006 23:53:01.573" level="INFO">${response_body} = {"timestamp":"2022-10-06T18:23:01.556+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"//calculator/insert"}</msg>
-<status status="PASS" starttime="20221006 23:53:01.572" endtime="20221006 23:53:01.573"/>
+<msg timestamp="20221008 17:00:05.815" level="INFO">${response_body} = {"timestamp":"2022-10-08T11:30:05.784+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"//calculator/insert"}</msg>
+<status status="PASS" starttime="20221008 17:00:05.800" endtime="20221008 17:00:05.815"/>
 </kw>
 <kw name="Should Contain" library="BuiltIn">
 <arg>${response_body}</arg>
 <arg>${error_msg}</arg>
 <doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
-<status status="PASS" starttime="20221006 23:53:01.573" endtime="20221006 23:53:01.573"/>
+<status status="PASS" starttime="20221008 17:00:05.815" endtime="20221008 17:00:05.815"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.571" endtime="20221006 23:53:01.573"/>
+<status status="PASS" starttime="20221008 17:00:05.800" endtime="20221008 17:00:05.815"/>
 </kw>
 <doc>In this test case will add incorrect form of json and validate the error response.</doc>
 <tag>regression</tag>
-<status status="PASS" starttime="20221006 23:53:01.503" endtime="20221006 23:53:01.574"/>
+<status status="PASS" starttime="20221008 17:00:05.769" endtime="20221008 17:00:05.815"/>
 </test>
 <test id="s1-s1-t4" name="TC_4: Insert a record with invalid format of Gender and validate the response">
 <kw name="Make a POST API Request with" library="API_Helper">
@@ -317,8 +317,8 @@ given `alias`</doc>
 <arg>&lt;b&gt;Domain_URL: ${URL}&lt;br&gt;Path: ${Path}&lt;br&gt;Request Headers: ${json_header}&lt;br&gt;Request Body: ${json_body}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.579" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insert&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: {'birthday': 21111992, 'gender': 'Male', 'name': 'Krishna', 'natid': 'HKR1233', 'salary': 565658, 'tax': 32}&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.578" endtime="20221006 23:53:01.579"/>
+<msg timestamp="20221008 17:00:05.815" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insert&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: {'birthday': 21111992, 'gender': 'Male', 'name': 'Krishna', 'natid': 'HKR1233', 'salary': 565658, 'tax': 32}&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.815" endtime="20221008 17:00:05.831"/>
 </kw>
 <kw name="Create Custom Session" library="RequestsLibrary">
 <arg>API_POST</arg>
@@ -326,8 +326,8 @@ given `alias`</doc>
 <arg>auth=${EMPTY}</arg>
 <arg>disable_warnings=1</arg>
 <doc>Create Session: create a HTTP session to a server</doc>
-<msg timestamp="20221006 23:53:01.581" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20221006 23:53:01.579" endtime="20221006 23:53:01.582"/>
+<msg timestamp="20221008 17:00:05.832" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20221008 17:00:05.831" endtime="20221008 17:00:05.832"/>
 </kw>
 <kw name="Post Request" library="RequestsLibrary">
 <var>${API_RESPONSE}</var>
@@ -337,17 +337,17 @@ given `alias`</doc>
 <arg>data=${json_body}</arg>
 <doc>Send a POST request on the session object found using the
 given `alias`</doc>
-<msg timestamp="20221006 23:53:01.610" level="INFO">POST Request : url=http://localhost:8080//calculator/insert 
+<msg timestamp="20221008 17:00:05.878" level="INFO">POST Request : url=http://localhost:8080//calculator/insert 
  path_url=//calculator/insert 
  headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '108'} 
  body={"birthday": 21111992, "gender": "Male", "name": "Krishna", "natid": "HKR1233", "salary": 565658, "tax": 32} 
  </msg>
-<msg timestamp="20221006 23:53:01.610" level="INFO">POST Response : url=http://localhost:8080//calculator/insert 
+<msg timestamp="20221008 17:00:05.878" level="INFO">POST Response : url=http://localhost:8080//calculator/insert 
  status=500, reason= 
- body={"timestamp":"2022-10-06T18:23:01.607+0000","status":500,"error":"Internal Server Error","message":"could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement","path":"//calculator/insert"} 
+ body={"timestamp":"2022-10-08T11:30:05.877+0000","status":500,"error":"Internal Server Error","message":"could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement","path":"//calculator/insert"} 
  </msg>
-<msg timestamp="20221006 23:53:01.610" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.583" endtime="20221006 23:53:01.610"/>
+<msg timestamp="20221008 17:00:05.878" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.832" endtime="20221008 17:00:05.878"/>
 </kw>
 <kw name="Log Many" library="BuiltIn">
 <arg>Response Status Code:</arg>
@@ -357,21 +357,21 @@ given `alias`</doc>
 <arg>Response Headers:</arg>
 <arg>${API_RESPONSE.headers}</arg>
 <doc>Logs the given messages as separate entries using the INFO level.</doc>
-<msg timestamp="20221006 23:53:01.611" level="INFO">Response Status Code:</msg>
-<msg timestamp="20221006 23:53:01.612" level="INFO">500</msg>
-<msg timestamp="20221006 23:53:01.612" level="INFO">Response Body:</msg>
-<msg timestamp="20221006 23:53:01.612" level="INFO">{"timestamp":"2022-10-06T18:23:01.607+0000","status":500,"error":"Internal Server Error","message":"could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement","path":"//calculator/insert"}</msg>
-<msg timestamp="20221006 23:53:01.612" level="INFO">Response Headers:</msg>
-<msg timestamp="20221006 23:53:01.613" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Thu, 06 Oct 2022 18:23:01 GMT', 'Connection': 'close'}</msg>
-<status status="PASS" starttime="20221006 23:53:01.611" endtime="20221006 23:53:01.613"/>
+<msg timestamp="20221008 17:00:05.878" level="INFO">Response Status Code:</msg>
+<msg timestamp="20221008 17:00:05.878" level="INFO">500</msg>
+<msg timestamp="20221008 17:00:05.878" level="INFO">Response Body:</msg>
+<msg timestamp="20221008 17:00:05.878" level="INFO">{"timestamp":"2022-10-08T11:30:05.877+0000","status":500,"error":"Internal Server Error","message":"could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement","path":"//calculator/insert"}</msg>
+<msg timestamp="20221008 17:00:05.878" level="INFO">Response Headers:</msg>
+<msg timestamp="20221008 17:00:05.893" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 08 Oct 2022 11:30:05 GMT', 'Connection': 'close'}</msg>
+<status status="PASS" starttime="20221008 17:00:05.878" endtime="20221008 17:00:05.893"/>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <arg>${API_RESPONSE}</arg>
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
-<msg timestamp="20221006 23:53:01.614" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.614" endtime="20221006 23:53:01.614"/>
+<msg timestamp="20221008 17:00:05.893" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.893" endtime="20221008 17:00:05.893"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.576" endtime="20221006 23:53:01.614"/>
+<status status="PASS" starttime="20221008 17:00:05.815" endtime="20221008 17:00:05.893"/>
 </kw>
 <kw name="Verify the API Response Code is" library="API_Helper">
 <arg>500</arg>
@@ -379,19 +379,19 @@ given `alias`</doc>
 <arg>&lt;b&gt;Actual Response Status Code: ${API_RESPONSE.status_code}&lt;br&gt;Expected Response Status Code: ${expected_status_code}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.617" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 500&lt;br&gt;Expected Response Status Code: 500&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.616" endtime="20221006 23:53:01.617"/>
+<msg timestamp="20221008 17:00:05.893" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 500&lt;br&gt;Expected Response Status Code: 500&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.893" endtime="20221008 17:00:05.893"/>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <arg>${API_RESPONSE.status_code}</arg>
 <arg>${expected_status_code}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<msg timestamp="20221006 23:53:01.619" level="INFO">Argument types are:
+<msg timestamp="20221008 17:00:05.893" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.617" endtime="20221006 23:53:01.619"/>
+<status status="PASS" starttime="20221008 17:00:05.893" endtime="20221008 17:00:05.893"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.615" endtime="20221006 23:53:01.619"/>
+<status status="PASS" starttime="20221008 17:00:05.893" endtime="20221008 17:00:05.893"/>
 </kw>
 <kw name="Verify the API Response body contains Error Message" library="API_Helper">
 <arg>could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement</arg>
@@ -399,20 +399,20 @@ given `alias`</doc>
 <var>${response_body}</var>
 <arg>${API_RESPONSE.content}</arg>
 <doc>Converts the given item to a Unicode string.</doc>
-<msg timestamp="20221006 23:53:01.621" level="INFO">${response_body} = {"timestamp":"2022-10-06T18:23:01.607+0000","status":500,"error":"Internal Server Error","message":"could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: c...</msg>
-<status status="PASS" starttime="20221006 23:53:01.620" endtime="20221006 23:53:01.621"/>
+<msg timestamp="20221008 17:00:05.909" level="INFO">${response_body} = {"timestamp":"2022-10-08T11:30:05.877+0000","status":500,"error":"Internal Server Error","message":"could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: c...</msg>
+<status status="PASS" starttime="20221008 17:00:05.909" endtime="20221008 17:00:05.909"/>
 </kw>
 <kw name="Should Contain" library="BuiltIn">
 <arg>${response_body}</arg>
 <arg>${error_msg}</arg>
 <doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
-<status status="PASS" starttime="20221006 23:53:01.621" endtime="20221006 23:53:01.621"/>
+<status status="PASS" starttime="20221008 17:00:05.909" endtime="20221008 17:00:05.909"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.619" endtime="20221006 23:53:01.622"/>
+<status status="PASS" starttime="20221008 17:00:05.893" endtime="20221008 17:00:05.909"/>
 </kw>
 <doc>In this test case will add incorrect form of json and validate the error response.</doc>
 <tag>regression</tag>
-<status status="PASS" starttime="20221006 23:53:01.575" endtime="20221006 23:53:01.622"/>
+<status status="PASS" starttime="20221008 17:00:05.815" endtime="20221008 17:00:05.909"/>
 </test>
 <test id="s1-s1-t5" name="TC_5: Insert a record with invalid birthday format and validate the response">
 <kw name="Make a POST API Request with" library="API_Helper">
@@ -424,8 +424,8 @@ given `alias`</doc>
 <arg>&lt;b&gt;Domain_URL: ${URL}&lt;br&gt;Path: ${Path}&lt;br&gt;Request Headers: ${json_header}&lt;br&gt;Request Body: ${json_body}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.626" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insert&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: {'birthday': 19951122, 'gender': 'F', 'name': 'Shristi', 'natid': 'JJKK4545', 'salary': 22388883, 'tax': 2}&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.626" endtime="20221006 23:53:01.626"/>
+<msg timestamp="20221008 17:00:05.925" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insert&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: {'birthday': 19951122, 'gender': 'F', 'name': 'Shristi', 'natid': 'JJKK4545', 'salary': 22388883, 'tax': 2}&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.925" endtime="20221008 17:00:05.925"/>
 </kw>
 <kw name="Create Custom Session" library="RequestsLibrary">
 <arg>API_POST</arg>
@@ -433,8 +433,8 @@ given `alias`</doc>
 <arg>auth=${EMPTY}</arg>
 <arg>disable_warnings=1</arg>
 <doc>Create Session: create a HTTP session to a server</doc>
-<msg timestamp="20221006 23:53:01.627" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20221006 23:53:01.626" endtime="20221006 23:53:01.627"/>
+<msg timestamp="20221008 17:00:05.925" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20221008 17:00:05.925" endtime="20221008 17:00:05.925"/>
 </kw>
 <kw name="Post Request" library="RequestsLibrary">
 <var>${API_RESPONSE}</var>
@@ -444,17 +444,17 @@ given `alias`</doc>
 <arg>data=${json_body}</arg>
 <doc>Send a POST request on the session object found using the
 given `alias`</doc>
-<msg timestamp="20221006 23:53:01.658" level="INFO">POST Request : url=http://localhost:8080//calculator/insert 
+<msg timestamp="20221008 17:00:05.972" level="INFO">POST Request : url=http://localhost:8080//calculator/insert 
  path_url=//calculator/insert 
  headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '107'} 
  body={"birthday": 19951122, "gender": "F", "name": "Shristi", "natid": "JJKK4545", "salary": 22388883, "tax": 2} 
  </msg>
-<msg timestamp="20221006 23:53:01.659" level="INFO">POST Response : url=http://localhost:8080//calculator/insert 
+<msg timestamp="20221008 17:00:05.972" level="INFO">POST Response : url=http://localhost:8080//calculator/insert 
  status=500, reason= 
- body={"timestamp":"2022-10-06T18:23:01.657+0000","status":500,"error":"Internal Server Error","message":"Text '19951122' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 95","path":"//calculator/insert"} 
+ body={"timestamp":"2022-10-08T11:30:05.971+0000","status":500,"error":"Internal Server Error","message":"Text '19951122' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 95","path":"//calculator/insert"} 
  </msg>
-<msg timestamp="20221006 23:53:01.659" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.628" endtime="20221006 23:53:01.659"/>
+<msg timestamp="20221008 17:00:05.972" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.925" endtime="20221008 17:00:05.972"/>
 </kw>
 <kw name="Log Many" library="BuiltIn">
 <arg>Response Status Code:</arg>
@@ -464,21 +464,21 @@ given `alias`</doc>
 <arg>Response Headers:</arg>
 <arg>${API_RESPONSE.headers}</arg>
 <doc>Logs the given messages as separate entries using the INFO level.</doc>
-<msg timestamp="20221006 23:53:01.659" level="INFO">Response Status Code:</msg>
-<msg timestamp="20221006 23:53:01.661" level="INFO">500</msg>
-<msg timestamp="20221006 23:53:01.661" level="INFO">Response Body:</msg>
-<msg timestamp="20221006 23:53:01.662" level="INFO">{"timestamp":"2022-10-06T18:23:01.657+0000","status":500,"error":"Internal Server Error","message":"Text '19951122' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 95","path":"//calculator/insert"}</msg>
-<msg timestamp="20221006 23:53:01.662" level="INFO">Response Headers:</msg>
-<msg timestamp="20221006 23:53:01.663" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Thu, 06 Oct 2022 18:23:01 GMT', 'Connection': 'close'}</msg>
-<status status="PASS" starttime="20221006 23:53:01.659" endtime="20221006 23:53:01.663"/>
+<msg timestamp="20221008 17:00:05.972" level="INFO">Response Status Code:</msg>
+<msg timestamp="20221008 17:00:05.972" level="INFO">500</msg>
+<msg timestamp="20221008 17:00:05.972" level="INFO">Response Body:</msg>
+<msg timestamp="20221008 17:00:05.972" level="INFO">{"timestamp":"2022-10-08T11:30:05.971+0000","status":500,"error":"Internal Server Error","message":"Text '19951122' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 95","path":"//calculator/insert"}</msg>
+<msg timestamp="20221008 17:00:05.972" level="INFO">Response Headers:</msg>
+<msg timestamp="20221008 17:00:05.972" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 08 Oct 2022 11:30:05 GMT', 'Connection': 'close'}</msg>
+<status status="PASS" starttime="20221008 17:00:05.972" endtime="20221008 17:00:05.972"/>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <arg>${API_RESPONSE}</arg>
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
-<msg timestamp="20221006 23:53:01.664" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.663" endtime="20221006 23:53:01.664"/>
+<msg timestamp="20221008 17:00:05.972" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.972" endtime="20221008 17:00:05.972"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.624" endtime="20221006 23:53:01.664"/>
+<status status="PASS" starttime="20221008 17:00:05.909" endtime="20221008 17:00:05.987"/>
 </kw>
 <kw name="Verify the API Response Code is" library="API_Helper">
 <arg>500</arg>
@@ -486,19 +486,19 @@ given `alias`</doc>
 <arg>&lt;b&gt;Actual Response Status Code: ${API_RESPONSE.status_code}&lt;br&gt;Expected Response Status Code: ${expected_status_code}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.667" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 500&lt;br&gt;Expected Response Status Code: 500&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.666" endtime="20221006 23:53:01.667"/>
+<msg timestamp="20221008 17:00:05.992" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 500&lt;br&gt;Expected Response Status Code: 500&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:05.989" endtime="20221008 17:00:05.992"/>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <arg>${API_RESPONSE.status_code}</arg>
 <arg>${expected_status_code}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<msg timestamp="20221006 23:53:01.669" level="INFO">Argument types are:
+<msg timestamp="20221008 17:00:05.995" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.668" endtime="20221006 23:53:01.670"/>
+<status status="PASS" starttime="20221008 17:00:05.995" endtime="20221008 17:00:05.995"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.665" endtime="20221006 23:53:01.670"/>
+<status status="PASS" starttime="20221008 17:00:05.989" endtime="20221008 17:00:05.995"/>
 </kw>
 <kw name="Verify the API Response body contains Error Message" library="API_Helper">
 <arg>Text '19951122' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 95</arg>
@@ -506,22 +506,22 @@ given `alias`</doc>
 <var>${response_body}</var>
 <arg>${API_RESPONSE.content}</arg>
 <doc>Converts the given item to a Unicode string.</doc>
-<msg timestamp="20221006 23:53:01.674" level="INFO">${response_body} = {"timestamp":"2022-10-06T18:23:01.657+0000","status":500,"error":"Internal Server Error","message":"Text '19951122' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 95","path"...</msg>
-<status status="PASS" starttime="20221006 23:53:01.672" endtime="20221006 23:53:01.674"/>
+<msg timestamp="20221008 17:00:06.003" level="INFO">${response_body} = {"timestamp":"2022-10-08T11:30:05.971+0000","status":500,"error":"Internal Server Error","message":"Text '19951122' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 95","path"...</msg>
+<status status="PASS" starttime="20221008 17:00:05.995" endtime="20221008 17:00:06.003"/>
 </kw>
 <kw name="Should Contain" library="BuiltIn">
 <arg>${response_body}</arg>
 <arg>${error_msg}</arg>
 <doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
-<status status="PASS" starttime="20221006 23:53:01.675" endtime="20221006 23:53:01.676"/>
+<status status="PASS" starttime="20221008 17:00:06.003" endtime="20221008 17:00:06.003"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.671" endtime="20221006 23:53:01.677"/>
+<status status="PASS" starttime="20221008 17:00:05.995" endtime="20221008 17:00:06.003"/>
 </kw>
 <doc>In this test case will add incorrect form of json and validate the error response.</doc>
 <tag>regression</tag>
-<status status="PASS" starttime="20221006 23:53:01.623" endtime="20221006 23:53:01.678"/>
+<status status="PASS" starttime="20221008 17:00:05.909" endtime="20221008 17:00:06.003"/>
 </test>
-<status status="PASS" starttime="20221006 23:53:00.857" endtime="20221006 23:53:01.681"/>
+<status status="PASS" starttime="20221008 17:00:05.356" endtime="20221008 17:00:06.011"/>
 </suite>
 <suite id="s1-s2" name="User Story 2" source="C:\Users\kapoo\Downloads\Compressed\Oppenheimer-20221002T171833Z-001\Oppenheimer\Oppenheimer\Tests\User_Story_2.robot">
 <test id="s1-s2-t1" name="TC_1: Insert a multiple records of working class">
@@ -534,8 +534,8 @@ given `alias`</doc>
 <arg>&lt;b&gt;Domain_URL: ${URL}&lt;br&gt;Path: ${Path}&lt;br&gt;Request Headers: ${json_header}&lt;br&gt;Request Body: ${json_body}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.706" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insertMultiple&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: [{'birthday': 21111992, 'gender': 'F', 'name': 'Kristine', 'natid': 'QQD32ABS', 'salary': 18388883, 'tax': 12}, {'birthday': 10111992, 'gender': 'M', 'name': 'Harshil', 'natid': 'LKLD32ABS', 'salary': 7568883, 'tax': 21}]&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.705" endtime="20221006 23:53:01.706"/>
+<msg timestamp="20221008 17:00:06.060" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insertMultiple&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: [{'birthday': 21111992, 'gender': 'F', 'name': 'Kristine', 'natid': 'QQD32ABS', 'salary': 18388883, 'tax': 12}, {'birthday': 10111992, 'gender': 'M', 'name': 'Harshil', 'natid': 'LKLD32ABS', 'salary': 7568883, 'tax': 21}]&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.060" endtime="20221008 17:00:06.060"/>
 </kw>
 <kw name="Create Custom Session" library="RequestsLibrary">
 <arg>API_POST</arg>
@@ -543,8 +543,8 @@ given `alias`</doc>
 <arg>auth=${EMPTY}</arg>
 <arg>disable_warnings=1</arg>
 <doc>Create Session: create a HTTP session to a server</doc>
-<msg timestamp="20221006 23:53:01.708" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20221006 23:53:01.706" endtime="20221006 23:53:01.708"/>
+<msg timestamp="20221008 17:00:06.060" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20221008 17:00:06.060" endtime="20221008 17:00:06.060"/>
 </kw>
 <kw name="Post Request" library="RequestsLibrary">
 <var>${API_RESPONSE}</var>
@@ -554,17 +554,17 @@ given `alias`</doc>
 <arg>data=${json_body}</arg>
 <doc>Send a POST request on the session object found using the
 given `alias`</doc>
-<msg timestamp="20221006 23:53:01.731" level="INFO">POST Request : url=http://localhost:8080//calculator/insertMultiple 
+<msg timestamp="20221008 17:00:06.068" level="INFO">POST Request : url=http://localhost:8080//calculator/insertMultiple 
  path_url=//calculator/insertMultiple 
  headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '221'} 
  body=[{"birthday": 21111992, "gender": "F", "name": "Kristine", "natid": "QQD32ABS", "salary": 18388883, "tax": 12}, {"birthday": 10111992, "gender": "M", "name": "Harshil", "natid": "LKLD32ABS", "salary": 7568883, "tax": 21}] 
  </msg>
-<msg timestamp="20221006 23:53:01.732" level="INFO">POST Response : url=http://localhost:8080//calculator/insertMultiple 
+<msg timestamp="20221008 17:00:06.068" level="INFO">POST Response : url=http://localhost:8080//calculator/insertMultiple 
  status=202, reason= 
  body=Alright 
  </msg>
-<msg timestamp="20221006 23:53:01.732" level="INFO">${API_RESPONSE} = &lt;Response [202]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.709" endtime="20221006 23:53:01.732"/>
+<msg timestamp="20221008 17:00:06.068" level="INFO">${API_RESPONSE} = &lt;Response [202]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.060" endtime="20221008 17:00:06.068"/>
 </kw>
 <kw name="Log Many" library="BuiltIn">
 <arg>Response Status Code:</arg>
@@ -574,21 +574,21 @@ given `alias`</doc>
 <arg>Response Headers:</arg>
 <arg>${API_RESPONSE.headers}</arg>
 <doc>Logs the given messages as separate entries using the INFO level.</doc>
-<msg timestamp="20221006 23:53:01.733" level="INFO">Response Status Code:</msg>
-<msg timestamp="20221006 23:53:01.734" level="INFO">202</msg>
-<msg timestamp="20221006 23:53:01.734" level="INFO">Response Body:</msg>
-<msg timestamp="20221006 23:53:01.735" level="INFO">Alright</msg>
-<msg timestamp="20221006 23:53:01.735" level="INFO">Response Headers:</msg>
-<msg timestamp="20221006 23:53:01.736" level="INFO">{'Content-Type': 'text/plain;charset=UTF-8', 'Content-Length': '7', 'Date': 'Thu, 06 Oct 2022 18:23:01 GMT'}</msg>
-<status status="PASS" starttime="20221006 23:53:01.733" endtime="20221006 23:53:01.736"/>
+<msg timestamp="20221008 17:00:06.076" level="INFO">Response Status Code:</msg>
+<msg timestamp="20221008 17:00:06.076" level="INFO">202</msg>
+<msg timestamp="20221008 17:00:06.076" level="INFO">Response Body:</msg>
+<msg timestamp="20221008 17:00:06.076" level="INFO">Alright</msg>
+<msg timestamp="20221008 17:00:06.076" level="INFO">Response Headers:</msg>
+<msg timestamp="20221008 17:00:06.076" level="INFO">{'Content-Type': 'text/plain;charset=UTF-8', 'Content-Length': '7', 'Date': 'Sat, 08 Oct 2022 11:30:05 GMT'}</msg>
+<status status="PASS" starttime="20221008 17:00:06.076" endtime="20221008 17:00:06.076"/>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <arg>${API_RESPONSE}</arg>
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
-<msg timestamp="20221006 23:53:01.737" level="INFO">${API_RESPONSE} = &lt;Response [202]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.736" endtime="20221006 23:53:01.737"/>
+<msg timestamp="20221008 17:00:06.076" level="INFO">${API_RESPONSE} = &lt;Response [202]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.076" endtime="20221008 17:00:06.076"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.703" endtime="20221006 23:53:01.737"/>
+<status status="PASS" starttime="20221008 17:00:06.060" endtime="20221008 17:00:06.076"/>
 </kw>
 <kw name="Verify the API Response Code is" library="API_Helper">
 <arg>202</arg>
@@ -596,24 +596,24 @@ given `alias`</doc>
 <arg>&lt;b&gt;Actual Response Status Code: ${API_RESPONSE.status_code}&lt;br&gt;Expected Response Status Code: ${expected_status_code}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.740" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 202&lt;br&gt;Expected Response Status Code: 202&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.739" endtime="20221006 23:53:01.740"/>
+<msg timestamp="20221008 17:00:06.076" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 202&lt;br&gt;Expected Response Status Code: 202&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.076" endtime="20221008 17:00:06.076"/>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <arg>${API_RESPONSE.status_code}</arg>
 <arg>${expected_status_code}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<msg timestamp="20221006 23:53:01.742" level="INFO">Argument types are:
+<msg timestamp="20221008 17:00:06.076" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.740" endtime="20221006 23:53:01.742"/>
+<status status="PASS" starttime="20221008 17:00:06.076" endtime="20221008 17:00:06.076"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.738" endtime="20221006 23:53:01.742"/>
+<status status="PASS" starttime="20221008 17:00:06.076" endtime="20221008 17:00:06.076"/>
 </kw>
 <doc>This test case can add more than one record in database via Post API</doc>
 <tag>regression</tag>
 <tag>sanity</tag>
-<status status="PASS" starttime="20221006 23:53:01.702" endtime="20221006 23:53:01.743"/>
+<status status="PASS" starttime="20221008 17:00:06.060" endtime="20221008 17:00:06.076"/>
 </test>
 <test id="s1-s2-t2" name="TC_2: Insert a single record of working class">
 <kw name="Make a POST API Request with" library="API_Helper">
@@ -625,8 +625,8 @@ given `alias`</doc>
 <arg>&lt;b&gt;Domain_URL: ${URL}&lt;br&gt;Path: ${Path}&lt;br&gt;Request Headers: ${json_header}&lt;br&gt;Request Body: ${json_body}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.747" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insertMultiple&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: {'birthday': 21111992, 'gender': 'F', 'name': 'KAmani', 'natid': 'KKD32ABS', 'salary': 22388883, 'tax': 22}&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.746" endtime="20221006 23:53:01.747"/>
+<msg timestamp="20221008 17:00:06.084" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insertMultiple&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: {'birthday': 21111992, 'gender': 'F', 'name': 'KAmani', 'natid': 'KKD32ABS', 'salary': 22388883, 'tax': 22}&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.084" endtime="20221008 17:00:06.084"/>
 </kw>
 <kw name="Create Custom Session" library="RequestsLibrary">
 <arg>API_POST</arg>
@@ -634,8 +634,8 @@ given `alias`</doc>
 <arg>auth=${EMPTY}</arg>
 <arg>disable_warnings=1</arg>
 <doc>Create Session: create a HTTP session to a server</doc>
-<msg timestamp="20221006 23:53:01.749" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20221006 23:53:01.747" endtime="20221006 23:53:01.749"/>
+<msg timestamp="20221008 17:00:06.084" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20221008 17:00:06.084" endtime="20221008 17:00:06.084"/>
 </kw>
 <kw name="Post Request" library="RequestsLibrary">
 <var>${API_RESPONSE}</var>
@@ -645,17 +645,17 @@ given `alias`</doc>
 <arg>data=${json_body}</arg>
 <doc>Send a POST request on the session object found using the
 given `alias`</doc>
-<msg timestamp="20221006 23:53:01.761" level="INFO">POST Request : url=http://localhost:8080//calculator/insertMultiple 
+<msg timestamp="20221008 17:00:06.093" level="INFO">POST Request : url=http://localhost:8080//calculator/insertMultiple 
  path_url=//calculator/insertMultiple 
  headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '107'} 
  body={"birthday": 21111992, "gender": "F", "name": "KAmani", "natid": "KKD32ABS", "salary": 22388883, "tax": 22} 
  </msg>
-<msg timestamp="20221006 23:53:01.761" level="INFO">POST Response : url=http://localhost:8080//calculator/insertMultiple 
+<msg timestamp="20221008 17:00:06.093" level="INFO">POST Response : url=http://localhost:8080//calculator/insertMultiple 
  status=400, reason= 
- body={"timestamp":"2022-10-06T18:23:01.759+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize instance of `java.util.ArrayList` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.ArrayList` out of START_OBJECT token\n at [Source: (PushbackInputStream); line: 1, column: 1]","path":"//calculator/insertMultiple"} 
+ body={"timestamp":"2022-10-08T11:30:06.092+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize instance of `java.util.ArrayList` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.ArrayList` out of START_OBJECT token\n at [Source: (PushbackInputStream); line: 1, column: 1]","path":"//calculator/insertMultiple"} 
  </msg>
-<msg timestamp="20221006 23:53:01.761" level="INFO">${API_RESPONSE} = &lt;Response [400]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.750" endtime="20221006 23:53:01.761"/>
+<msg timestamp="20221008 17:00:06.093" level="INFO">${API_RESPONSE} = &lt;Response [400]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.084" endtime="20221008 17:00:06.093"/>
 </kw>
 <kw name="Log Many" library="BuiltIn">
 <arg>Response Status Code:</arg>
@@ -665,21 +665,21 @@ given `alias`</doc>
 <arg>Response Headers:</arg>
 <arg>${API_RESPONSE.headers}</arg>
 <doc>Logs the given messages as separate entries using the INFO level.</doc>
-<msg timestamp="20221006 23:53:01.762" level="INFO">Response Status Code:</msg>
-<msg timestamp="20221006 23:53:01.762" level="INFO">400</msg>
-<msg timestamp="20221006 23:53:01.762" level="INFO">Response Body:</msg>
-<msg timestamp="20221006 23:53:01.763" level="INFO">{"timestamp":"2022-10-06T18:23:01.759+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize instance of `java.util.ArrayList` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.ArrayList` out of START_OBJECT token\n at [Source: (PushbackInputStream); line: 1, column: 1]","path":"//calculator/insertMultiple"}</msg>
-<msg timestamp="20221006 23:53:01.763" level="INFO">Response Headers:</msg>
-<msg timestamp="20221006 23:53:01.764" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Thu, 06 Oct 2022 18:23:01 GMT', 'Connection': 'close'}</msg>
-<status status="PASS" starttime="20221006 23:53:01.761" endtime="20221006 23:53:01.764"/>
+<msg timestamp="20221008 17:00:06.093" level="INFO">Response Status Code:</msg>
+<msg timestamp="20221008 17:00:06.093" level="INFO">400</msg>
+<msg timestamp="20221008 17:00:06.093" level="INFO">Response Body:</msg>
+<msg timestamp="20221008 17:00:06.093" level="INFO">{"timestamp":"2022-10-08T11:30:06.092+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize instance of `java.util.ArrayList` out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.ArrayList` out of START_OBJECT token\n at [Source: (PushbackInputStream); line: 1, column: 1]","path":"//calculator/insertMultiple"}</msg>
+<msg timestamp="20221008 17:00:06.093" level="INFO">Response Headers:</msg>
+<msg timestamp="20221008 17:00:06.093" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 08 Oct 2022 11:30:05 GMT', 'Connection': 'close'}</msg>
+<status status="PASS" starttime="20221008 17:00:06.093" endtime="20221008 17:00:06.093"/>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <arg>${API_RESPONSE}</arg>
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
-<msg timestamp="20221006 23:53:01.765" level="INFO">${API_RESPONSE} = &lt;Response [400]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.765" endtime="20221006 23:53:01.766"/>
+<msg timestamp="20221008 17:00:06.093" level="INFO">${API_RESPONSE} = &lt;Response [400]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.093" endtime="20221008 17:00:06.093"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.745" endtime="20221006 23:53:01.766"/>
+<status status="PASS" starttime="20221008 17:00:06.084" endtime="20221008 17:00:06.093"/>
 </kw>
 <kw name="Verify the API Response Code is" library="API_Helper">
 <arg>400</arg>
@@ -687,19 +687,19 @@ given `alias`</doc>
 <arg>&lt;b&gt;Actual Response Status Code: ${API_RESPONSE.status_code}&lt;br&gt;Expected Response Status Code: ${expected_status_code}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.770" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 400&lt;br&gt;Expected Response Status Code: 400&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.768" endtime="20221006 23:53:01.770"/>
+<msg timestamp="20221008 17:00:06.093" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 400&lt;br&gt;Expected Response Status Code: 400&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.093" endtime="20221008 17:00:06.093"/>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <arg>${API_RESPONSE.status_code}</arg>
 <arg>${expected_status_code}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<msg timestamp="20221006 23:53:01.772" level="INFO">Argument types are:
+<msg timestamp="20221008 17:00:06.093" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.771" endtime="20221006 23:53:01.772"/>
+<status status="PASS" starttime="20221008 17:00:06.093" endtime="20221008 17:00:06.093"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.767" endtime="20221006 23:53:01.773"/>
+<status status="PASS" starttime="20221008 17:00:06.093" endtime="20221008 17:00:06.093"/>
 </kw>
 <kw name="Verify the API Response body contains Error Message" library="API_Helper">
 <arg>JSON parse error</arg>
@@ -707,20 +707,20 @@ given `alias`</doc>
 <var>${response_body}</var>
 <arg>${API_RESPONSE.content}</arg>
 <doc>Converts the given item to a Unicode string.</doc>
-<msg timestamp="20221006 23:53:01.775" level="INFO">${response_body} = {"timestamp":"2022-10-06T18:23:01.759+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize instance of `java.util.ArrayList` out of START_OBJECT token; nested excep...</msg>
-<status status="PASS" starttime="20221006 23:53:01.774" endtime="20221006 23:53:01.775"/>
+<msg timestamp="20221008 17:00:06.108" level="INFO">${response_body} = {"timestamp":"2022-10-08T11:30:06.092+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize instance of `java.util.ArrayList` out of START_OBJECT token; nested excep...</msg>
+<status status="PASS" starttime="20221008 17:00:06.108" endtime="20221008 17:00:06.108"/>
 </kw>
 <kw name="Should Contain" library="BuiltIn">
 <arg>${response_body}</arg>
 <arg>${error_msg}</arg>
 <doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
-<status status="PASS" starttime="20221006 23:53:01.775" endtime="20221006 23:53:01.776"/>
+<status status="PASS" starttime="20221008 17:00:06.108" endtime="20221008 17:00:06.108"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.773" endtime="20221006 23:53:01.776"/>
+<status status="PASS" starttime="20221008 17:00:06.093" endtime="20221008 17:00:06.108"/>
 </kw>
 <doc>This test case we are adding one record i.e JSON in database via Post API</doc>
 <tag>regression</tag>
-<status status="PASS" starttime="20221006 23:53:01.744" endtime="20221006 23:53:01.776"/>
+<status status="PASS" starttime="20221008 17:00:06.084" endtime="20221008 17:00:06.108"/>
 </test>
 <test id="s1-s2-t3" name="TC_3: Insert a incorrect record and validate the response">
 <kw name="Make a POST API Request with" library="API_Helper">
@@ -732,8 +732,8 @@ given `alias`</doc>
 <arg>&lt;b&gt;Domain_URL: ${URL}&lt;br&gt;Path: ${Path}&lt;br&gt;Request Headers: ${json_header}&lt;br&gt;Request Body: ${json_body}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.781" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insertMultiple&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: [{'birthday': 21111992, 'natid': 'QQD32ABS', 'salary': 18388883, 'tax': 12}, {'birthday': 10111992, 'gender': 'M', 'name': 'Harshil'}]&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.780" endtime="20221006 23:53:01.781"/>
+<msg timestamp="20221008 17:00:06.108" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insertMultiple&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: [{'birthday': 21111992, 'natid': 'QQD32ABS', 'salary': 18388883, 'tax': 12}, {'birthday': 10111992, 'gender': 'M', 'name': 'Harshil'}]&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.108" endtime="20221008 17:00:06.108"/>
 </kw>
 <kw name="Create Custom Session" library="RequestsLibrary">
 <arg>API_POST</arg>
@@ -741,8 +741,8 @@ given `alias`</doc>
 <arg>auth=${EMPTY}</arg>
 <arg>disable_warnings=1</arg>
 <doc>Create Session: create a HTTP session to a server</doc>
-<msg timestamp="20221006 23:53:01.782" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20221006 23:53:01.781" endtime="20221006 23:53:01.782"/>
+<msg timestamp="20221008 17:00:06.108" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20221008 17:00:06.108" endtime="20221008 17:00:06.108"/>
 </kw>
 <kw name="Post Request" library="RequestsLibrary">
 <var>${API_RESPONSE}</var>
@@ -752,17 +752,17 @@ given `alias`</doc>
 <arg>data=${json_body}</arg>
 <doc>Send a POST request on the session object found using the
 given `alias`</doc>
-<msg timestamp="20221006 23:53:01.818" level="INFO">POST Request : url=http://localhost:8080//calculator/insertMultiple 
+<msg timestamp="20221008 17:00:06.140" level="INFO">POST Request : url=http://localhost:8080//calculator/insertMultiple 
  path_url=//calculator/insertMultiple 
  headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '134'} 
  body=[{"birthday": 21111992, "natid": "QQD32ABS", "salary": 18388883, "tax": 12}, {"birthday": 10111992, "gender": "M", "name": "Harshil"}] 
  </msg>
-<msg timestamp="20221006 23:53:01.818" level="INFO">POST Response : url=http://localhost:8080//calculator/insertMultiple 
+<msg timestamp="20221008 17:00:06.140" level="INFO">POST Response : url=http://localhost:8080//calculator/insertMultiple 
  status=500, reason= 
- body={"timestamp":"2022-10-06T18:23:01.816+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"//calculator/insertMultiple"} 
+ body={"timestamp":"2022-10-08T11:30:06.139+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"//calculator/insertMultiple"} 
  </msg>
-<msg timestamp="20221006 23:53:01.818" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.782" endtime="20221006 23:53:01.818"/>
+<msg timestamp="20221008 17:00:06.140" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.108" endtime="20221008 17:00:06.140"/>
 </kw>
 <kw name="Log Many" library="BuiltIn">
 <arg>Response Status Code:</arg>
@@ -772,21 +772,21 @@ given `alias`</doc>
 <arg>Response Headers:</arg>
 <arg>${API_RESPONSE.headers}</arg>
 <doc>Logs the given messages as separate entries using the INFO level.</doc>
-<msg timestamp="20221006 23:53:01.819" level="INFO">Response Status Code:</msg>
-<msg timestamp="20221006 23:53:01.820" level="INFO">500</msg>
-<msg timestamp="20221006 23:53:01.820" level="INFO">Response Body:</msg>
-<msg timestamp="20221006 23:53:01.821" level="INFO">{"timestamp":"2022-10-06T18:23:01.816+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"//calculator/insertMultiple"}</msg>
-<msg timestamp="20221006 23:53:01.821" level="INFO">Response Headers:</msg>
-<msg timestamp="20221006 23:53:01.822" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Thu, 06 Oct 2022 18:23:01 GMT', 'Connection': 'close'}</msg>
-<status status="PASS" starttime="20221006 23:53:01.819" endtime="20221006 23:53:01.823"/>
+<msg timestamp="20221008 17:00:06.140" level="INFO">Response Status Code:</msg>
+<msg timestamp="20221008 17:00:06.140" level="INFO">500</msg>
+<msg timestamp="20221008 17:00:06.140" level="INFO">Response Body:</msg>
+<msg timestamp="20221008 17:00:06.140" level="INFO">{"timestamp":"2022-10-08T11:30:06.139+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"//calculator/insertMultiple"}</msg>
+<msg timestamp="20221008 17:00:06.140" level="INFO">Response Headers:</msg>
+<msg timestamp="20221008 17:00:06.140" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 08 Oct 2022 11:30:05 GMT', 'Connection': 'close'}</msg>
+<status status="PASS" starttime="20221008 17:00:06.140" endtime="20221008 17:00:06.140"/>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <arg>${API_RESPONSE}</arg>
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
-<msg timestamp="20221006 23:53:01.823" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.823" endtime="20221006 23:53:01.823"/>
+<msg timestamp="20221008 17:00:06.140" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.140" endtime="20221008 17:00:06.140"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.779" endtime="20221006 23:53:01.824"/>
+<status status="PASS" starttime="20221008 17:00:06.108" endtime="20221008 17:00:06.140"/>
 </kw>
 <kw name="Verify the API Response Code is" library="API_Helper">
 <arg>500</arg>
@@ -794,19 +794,19 @@ given `alias`</doc>
 <arg>&lt;b&gt;Actual Response Status Code: ${API_RESPONSE.status_code}&lt;br&gt;Expected Response Status Code: ${expected_status_code}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.826" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 500&lt;br&gt;Expected Response Status Code: 500&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.825" endtime="20221006 23:53:01.826"/>
+<msg timestamp="20221008 17:00:06.140" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 500&lt;br&gt;Expected Response Status Code: 500&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.140" endtime="20221008 17:00:06.140"/>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <arg>${API_RESPONSE.status_code}</arg>
 <arg>${expected_status_code}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<msg timestamp="20221006 23:53:01.827" level="INFO">Argument types are:
+<msg timestamp="20221008 17:00:06.140" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.826" endtime="20221006 23:53:01.827"/>
+<status status="PASS" starttime="20221008 17:00:06.140" endtime="20221008 17:00:06.140"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.824" endtime="20221006 23:53:01.828"/>
+<status status="PASS" starttime="20221008 17:00:06.140" endtime="20221008 17:00:06.140"/>
 </kw>
 <kw name="Verify the API Response body contains Error Message" library="API_Helper">
 <arg>Internal Server Error</arg>
@@ -814,20 +814,20 @@ given `alias`</doc>
 <var>${response_body}</var>
 <arg>${API_RESPONSE.content}</arg>
 <doc>Converts the given item to a Unicode string.</doc>
-<msg timestamp="20221006 23:53:01.830" level="INFO">${response_body} = {"timestamp":"2022-10-06T18:23:01.816+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"//calculator/insertMultiple"}</msg>
-<status status="PASS" starttime="20221006 23:53:01.829" endtime="20221006 23:53:01.830"/>
+<msg timestamp="20221008 17:00:06.140" level="INFO">${response_body} = {"timestamp":"2022-10-08T11:30:06.139+0000","status":500,"error":"Internal Server Error","message":"No message available","path":"//calculator/insertMultiple"}</msg>
+<status status="PASS" starttime="20221008 17:00:06.140" endtime="20221008 17:00:06.140"/>
 </kw>
 <kw name="Should Contain" library="BuiltIn">
 <arg>${response_body}</arg>
 <arg>${error_msg}</arg>
 <doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
-<status status="PASS" starttime="20221006 23:53:01.830" endtime="20221006 23:53:01.830"/>
+<status status="PASS" starttime="20221008 17:00:06.140" endtime="20221008 17:00:06.140"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.828" endtime="20221006 23:53:01.830"/>
+<status status="PASS" starttime="20221008 17:00:06.140" endtime="20221008 17:00:06.140"/>
 </kw>
 <doc>In this test case will add incorrect form of json and validate the error response.</doc>
 <tag>regression</tag>
-<status status="PASS" starttime="20221006 23:53:01.778" endtime="20221006 23:53:01.831"/>
+<status status="PASS" starttime="20221008 17:00:06.108" endtime="20221008 17:00:06.140"/>
 </test>
 <test id="s1-s2-t4" name="TC_4: Insert a record with invalid format of Gender and validate the response">
 <kw name="Make a POST API Request with" library="API_Helper">
@@ -839,8 +839,8 @@ given `alias`</doc>
 <arg>&lt;b&gt;Domain_URL: ${URL}&lt;br&gt;Path: ${Path}&lt;br&gt;Request Headers: ${json_header}&lt;br&gt;Request Body: ${json_body}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.836" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insertMultiple&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: [{'birthday': 21111992, 'gender': 'Male', 'name': 'Krishna', 'natid': 'HKR1233', 'salary': 565658, 'tax': 32}, {'birthday': 21111992, 'gender': 'Male', 'name': 'Krishna', 'natid': 'HKR1233', 'salary': 565658, 'tax': 32}]&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.836" endtime="20221006 23:53:01.836"/>
+<msg timestamp="20221008 17:00:06.155" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insertMultiple&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: [{'birthday': 21111992, 'gender': 'Male', 'name': 'Krishna', 'natid': 'HKR1233', 'salary': 565658, 'tax': 32}, {'birthday': 21111992, 'gender': 'Male', 'name': 'Krishna', 'natid': 'HKR1233', 'salary': 565658, 'tax': 32}]&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.155" endtime="20221008 17:00:06.155"/>
 </kw>
 <kw name="Create Custom Session" library="RequestsLibrary">
 <arg>API_POST</arg>
@@ -848,8 +848,8 @@ given `alias`</doc>
 <arg>auth=${EMPTY}</arg>
 <arg>disable_warnings=1</arg>
 <doc>Create Session: create a HTTP session to a server</doc>
-<msg timestamp="20221006 23:53:01.837" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20221006 23:53:01.836" endtime="20221006 23:53:01.838"/>
+<msg timestamp="20221008 17:00:06.155" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20221008 17:00:06.155" endtime="20221008 17:00:06.155"/>
 </kw>
 <kw name="Post Request" library="RequestsLibrary">
 <var>${API_RESPONSE}</var>
@@ -859,17 +859,17 @@ given `alias`</doc>
 <arg>data=${json_body}</arg>
 <doc>Send a POST request on the session object found using the
 given `alias`</doc>
-<msg timestamp="20221006 23:53:01.853" level="INFO">POST Request : url=http://localhost:8080//calculator/insertMultiple 
+<msg timestamp="20221008 17:00:06.155" level="INFO">POST Request : url=http://localhost:8080//calculator/insertMultiple 
  path_url=//calculator/insertMultiple 
  headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '220'} 
  body=[{"birthday": 21111992, "gender": "Male", "name": "Krishna", "natid": "HKR1233", "salary": 565658, "tax": 32}, {"birthday": 21111992, "gender": "Male", "name": "Krishna", "natid": "HKR1233", "salary": 565658, "tax": 32}] 
  </msg>
-<msg timestamp="20221006 23:53:01.853" level="INFO">POST Response : url=http://localhost:8080//calculator/insertMultiple 
+<msg timestamp="20221008 17:00:06.155" level="INFO">POST Response : url=http://localhost:8080//calculator/insertMultiple 
  status=500, reason= 
- body={"timestamp":"2022-10-06T18:23:01.852+0000","status":500,"error":"Internal Server Error","message":"could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement","path":"//calculator/insertMultiple"} 
+ body={"timestamp":"2022-10-08T11:30:06.155+0000","status":500,"error":"Internal Server Error","message":"could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement","path":"//calculator/insertMultiple"} 
  </msg>
-<msg timestamp="20221006 23:53:01.853" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.838" endtime="20221006 23:53:01.853"/>
+<msg timestamp="20221008 17:00:06.155" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.155" endtime="20221008 17:00:06.155"/>
 </kw>
 <kw name="Log Many" library="BuiltIn">
 <arg>Response Status Code:</arg>
@@ -879,21 +879,21 @@ given `alias`</doc>
 <arg>Response Headers:</arg>
 <arg>${API_RESPONSE.headers}</arg>
 <doc>Logs the given messages as separate entries using the INFO level.</doc>
-<msg timestamp="20221006 23:53:01.853" level="INFO">Response Status Code:</msg>
-<msg timestamp="20221006 23:53:01.854" level="INFO">500</msg>
-<msg timestamp="20221006 23:53:01.854" level="INFO">Response Body:</msg>
-<msg timestamp="20221006 23:53:01.855" level="INFO">{"timestamp":"2022-10-06T18:23:01.852+0000","status":500,"error":"Internal Server Error","message":"could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement","path":"//calculator/insertMultiple"}</msg>
-<msg timestamp="20221006 23:53:01.855" level="INFO">Response Headers:</msg>
-<msg timestamp="20221006 23:53:01.855" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Thu, 06 Oct 2022 18:23:01 GMT', 'Connection': 'close'}</msg>
-<status status="PASS" starttime="20221006 23:53:01.853" endtime="20221006 23:53:01.856"/>
+<msg timestamp="20221008 17:00:06.155" level="INFO">Response Status Code:</msg>
+<msg timestamp="20221008 17:00:06.171" level="INFO">500</msg>
+<msg timestamp="20221008 17:00:06.171" level="INFO">Response Body:</msg>
+<msg timestamp="20221008 17:00:06.171" level="INFO">{"timestamp":"2022-10-08T11:30:06.155+0000","status":500,"error":"Internal Server Error","message":"could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement","path":"//calculator/insertMultiple"}</msg>
+<msg timestamp="20221008 17:00:06.171" level="INFO">Response Headers:</msg>
+<msg timestamp="20221008 17:00:06.171" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 08 Oct 2022 11:30:05 GMT', 'Connection': 'close'}</msg>
+<status status="PASS" starttime="20221008 17:00:06.155" endtime="20221008 17:00:06.171"/>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <arg>${API_RESPONSE}</arg>
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
-<msg timestamp="20221006 23:53:01.856" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.856" endtime="20221006 23:53:01.856"/>
+<msg timestamp="20221008 17:00:06.171" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.171" endtime="20221008 17:00:06.171"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.834" endtime="20221006 23:53:01.856"/>
+<status status="PASS" starttime="20221008 17:00:06.140" endtime="20221008 17:00:06.171"/>
 </kw>
 <kw name="Verify the API Response Code is" library="API_Helper">
 <arg>500</arg>
@@ -901,19 +901,19 @@ given `alias`</doc>
 <arg>&lt;b&gt;Actual Response Status Code: ${API_RESPONSE.status_code}&lt;br&gt;Expected Response Status Code: ${expected_status_code}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.858" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 500&lt;br&gt;Expected Response Status Code: 500&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.857" endtime="20221006 23:53:01.858"/>
+<msg timestamp="20221008 17:00:06.171" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 500&lt;br&gt;Expected Response Status Code: 500&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.171" endtime="20221008 17:00:06.171"/>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <arg>${API_RESPONSE.status_code}</arg>
 <arg>${expected_status_code}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<msg timestamp="20221006 23:53:01.860" level="INFO">Argument types are:
+<msg timestamp="20221008 17:00:06.171" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.858" endtime="20221006 23:53:01.860"/>
+<status status="PASS" starttime="20221008 17:00:06.171" endtime="20221008 17:00:06.171"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.857" endtime="20221006 23:53:01.861"/>
+<status status="PASS" starttime="20221008 17:00:06.171" endtime="20221008 17:00:06.171"/>
 </kw>
 <kw name="Verify the API Response body contains Error Message" library="API_Helper">
 <arg>could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: could not execute statement</arg>
@@ -921,20 +921,20 @@ given `alias`</doc>
 <var>${response_body}</var>
 <arg>${API_RESPONSE.content}</arg>
 <doc>Converts the given item to a Unicode string.</doc>
-<msg timestamp="20221006 23:53:01.863" level="INFO">${response_body} = {"timestamp":"2022-10-06T18:23:01.852+0000","status":500,"error":"Internal Server Error","message":"could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: c...</msg>
-<status status="PASS" starttime="20221006 23:53:01.862" endtime="20221006 23:53:01.863"/>
+<msg timestamp="20221008 17:00:06.171" level="INFO">${response_body} = {"timestamp":"2022-10-08T11:30:06.155+0000","status":500,"error":"Internal Server Error","message":"could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.DataException: c...</msg>
+<status status="PASS" starttime="20221008 17:00:06.171" endtime="20221008 17:00:06.171"/>
 </kw>
 <kw name="Should Contain" library="BuiltIn">
 <arg>${response_body}</arg>
 <arg>${error_msg}</arg>
 <doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
-<status status="PASS" starttime="20221006 23:53:01.863" endtime="20221006 23:53:01.864"/>
+<status status="PASS" starttime="20221008 17:00:06.171" endtime="20221008 17:00:06.171"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.861" endtime="20221006 23:53:01.864"/>
+<status status="PASS" starttime="20221008 17:00:06.171" endtime="20221008 17:00:06.171"/>
 </kw>
 <doc>In this test case will add incorrect form of json and validate the error response.</doc>
 <tag>regression</tag>
-<status status="PASS" starttime="20221006 23:53:01.833" endtime="20221006 23:53:01.864"/>
+<status status="PASS" starttime="20221008 17:00:06.140" endtime="20221008 17:00:06.171"/>
 </test>
 <test id="s1-s2-t5" name="TC_5: Insert a record with invalid birthday format and validate the response">
 <kw name="Make a POST API Request with" library="API_Helper">
@@ -946,8 +946,8 @@ given `alias`</doc>
 <arg>&lt;b&gt;Domain_URL: ${URL}&lt;br&gt;Path: ${Path}&lt;br&gt;Request Headers: ${json_header}&lt;br&gt;Request Body: ${json_body}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.868" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insertMultiple&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: [{'birthday': 19951122, 'gender': 'F', 'name': 'Shristi', 'natid': 'JJKK4545', 'salary': 22388883, 'tax': 2}, {'birthday': 19951122, 'gender': 'F', 'name': 'Simran', 'natid': 'JJKK4545', 'salary': 22388883, 'tax': 25}]&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.868" endtime="20221006 23:53:01.868"/>
+<msg timestamp="20221008 17:00:06.186" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insertMultiple&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: [{'birthday': 19951122, 'gender': 'F', 'name': 'Shristi', 'natid': 'JJKK4545', 'salary': 22388883, 'tax': 2}, {'birthday': 19951122, 'gender': 'F', 'name': 'Simran', 'natid': 'JJKK4545', 'salary': 22388883, 'tax': 25}]&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.186" endtime="20221008 17:00:06.186"/>
 </kw>
 <kw name="Create Custom Session" library="RequestsLibrary">
 <arg>API_POST</arg>
@@ -955,8 +955,8 @@ given `alias`</doc>
 <arg>auth=${EMPTY}</arg>
 <arg>disable_warnings=1</arg>
 <doc>Create Session: create a HTTP session to a server</doc>
-<msg timestamp="20221006 23:53:01.869" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20221006 23:53:01.868" endtime="20221006 23:53:01.870"/>
+<msg timestamp="20221008 17:00:06.186" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20221008 17:00:06.186" endtime="20221008 17:00:06.186"/>
 </kw>
 <kw name="Post Request" library="RequestsLibrary">
 <var>${API_RESPONSE}</var>
@@ -966,17 +966,17 @@ given `alias`</doc>
 <arg>data=${json_body}</arg>
 <doc>Send a POST request on the session object found using the
 given `alias`</doc>
-<msg timestamp="20221006 23:53:01.880" level="INFO">POST Request : url=http://localhost:8080//calculator/insertMultiple 
+<msg timestamp="20221008 17:00:06.186" level="INFO">POST Request : url=http://localhost:8080//calculator/insertMultiple 
  path_url=//calculator/insertMultiple 
  headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '218'} 
  body=[{"birthday": 19951122, "gender": "F", "name": "Shristi", "natid": "JJKK4545", "salary": 22388883, "tax": 2}, {"birthday": 19951122, "gender": "F", "name": "Simran", "natid": "JJKK4545", "salary": 22388883, "tax": 25}] 
  </msg>
-<msg timestamp="20221006 23:53:01.881" level="INFO">POST Response : url=http://localhost:8080//calculator/insertMultiple 
+<msg timestamp="20221008 17:00:06.186" level="INFO">POST Response : url=http://localhost:8080//calculator/insertMultiple 
  status=500, reason= 
- body={"timestamp":"2022-10-06T18:23:01.879+0000","status":500,"error":"Internal Server Error","message":"Text '19951122' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 95","path":"//calculator/insertMultiple"} 
+ body={"timestamp":"2022-10-08T11:30:06.186+0000","status":500,"error":"Internal Server Error","message":"Text '19951122' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 95","path":"//calculator/insertMultiple"} 
  </msg>
-<msg timestamp="20221006 23:53:01.881" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.870" endtime="20221006 23:53:01.881"/>
+<msg timestamp="20221008 17:00:06.186" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.186" endtime="20221008 17:00:06.186"/>
 </kw>
 <kw name="Log Many" library="BuiltIn">
 <arg>Response Status Code:</arg>
@@ -986,21 +986,21 @@ given `alias`</doc>
 <arg>Response Headers:</arg>
 <arg>${API_RESPONSE.headers}</arg>
 <doc>Logs the given messages as separate entries using the INFO level.</doc>
-<msg timestamp="20221006 23:53:01.881" level="INFO">Response Status Code:</msg>
-<msg timestamp="20221006 23:53:01.882" level="INFO">500</msg>
-<msg timestamp="20221006 23:53:01.882" level="INFO">Response Body:</msg>
-<msg timestamp="20221006 23:53:01.883" level="INFO">{"timestamp":"2022-10-06T18:23:01.879+0000","status":500,"error":"Internal Server Error","message":"Text '19951122' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 95","path":"//calculator/insertMultiple"}</msg>
-<msg timestamp="20221006 23:53:01.883" level="INFO">Response Headers:</msg>
-<msg timestamp="20221006 23:53:01.885" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Thu, 06 Oct 2022 18:23:01 GMT', 'Connection': 'close'}</msg>
-<status status="PASS" starttime="20221006 23:53:01.881" endtime="20221006 23:53:01.885"/>
+<msg timestamp="20221008 17:00:06.186" level="INFO">Response Status Code:</msg>
+<msg timestamp="20221008 17:00:06.186" level="INFO">500</msg>
+<msg timestamp="20221008 17:00:06.186" level="INFO">Response Body:</msg>
+<msg timestamp="20221008 17:00:06.202" level="INFO">{"timestamp":"2022-10-08T11:30:06.186+0000","status":500,"error":"Internal Server Error","message":"Text '19951122' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 95","path":"//calculator/insertMultiple"}</msg>
+<msg timestamp="20221008 17:00:06.202" level="INFO">Response Headers:</msg>
+<msg timestamp="20221008 17:00:06.202" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 08 Oct 2022 11:30:05 GMT', 'Connection': 'close'}</msg>
+<status status="PASS" starttime="20221008 17:00:06.186" endtime="20221008 17:00:06.202"/>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <arg>${API_RESPONSE}</arg>
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
-<msg timestamp="20221006 23:53:01.886" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.885" endtime="20221006 23:53:01.886"/>
+<msg timestamp="20221008 17:00:06.202" level="INFO">${API_RESPONSE} = &lt;Response [500]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.202" endtime="20221008 17:00:06.202"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.866" endtime="20221006 23:53:01.886"/>
+<status status="PASS" starttime="20221008 17:00:06.186" endtime="20221008 17:00:06.202"/>
 </kw>
 <kw name="Verify the API Response Code is" library="API_Helper">
 <arg>500</arg>
@@ -1008,19 +1008,19 @@ given `alias`</doc>
 <arg>&lt;b&gt;Actual Response Status Code: ${API_RESPONSE.status_code}&lt;br&gt;Expected Response Status Code: ${expected_status_code}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:01.887" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 500&lt;br&gt;Expected Response Status Code: 500&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.887" endtime="20221006 23:53:01.888"/>
+<msg timestamp="20221008 17:00:06.202" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 500&lt;br&gt;Expected Response Status Code: 500&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:06.202" endtime="20221008 17:00:06.202"/>
 </kw>
 <kw name="Should Be Equal As Strings" library="BuiltIn">
 <arg>${API_RESPONSE.status_code}</arg>
 <arg>${expected_status_code}</arg>
 <doc>Fails if objects are unequal after converting them to strings.</doc>
-<msg timestamp="20221006 23:53:01.888" level="INFO">Argument types are:
+<msg timestamp="20221008 17:00:06.202" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;type 'unicode'&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:01.888" endtime="20221006 23:53:01.888"/>
+<status status="PASS" starttime="20221008 17:00:06.202" endtime="20221008 17:00:06.202"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.886" endtime="20221006 23:53:01.889"/>
+<status status="PASS" starttime="20221008 17:00:06.202" endtime="20221008 17:00:06.202"/>
 </kw>
 <kw name="Verify the API Response body contains Error Message" library="API_Helper">
 <arg>Text '19951122' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 95</arg>
@@ -1028,22 +1028,22 @@ given `alias`</doc>
 <var>${response_body}</var>
 <arg>${API_RESPONSE.content}</arg>
 <doc>Converts the given item to a Unicode string.</doc>
-<msg timestamp="20221006 23:53:01.890" level="INFO">${response_body} = {"timestamp":"2022-10-06T18:23:01.879+0000","status":500,"error":"Internal Server Error","message":"Text '19951122' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 95","path"...</msg>
-<status status="PASS" starttime="20221006 23:53:01.889" endtime="20221006 23:53:01.891"/>
+<msg timestamp="20221008 17:00:06.202" level="INFO">${response_body} = {"timestamp":"2022-10-08T11:30:06.186+0000","status":500,"error":"Internal Server Error","message":"Text '19951122' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 95","path"...</msg>
+<status status="PASS" starttime="20221008 17:00:06.202" endtime="20221008 17:00:06.202"/>
 </kw>
 <kw name="Should Contain" library="BuiltIn">
 <arg>${response_body}</arg>
 <arg>${error_msg}</arg>
 <doc>Fails if ``container`` does not contain ``item`` one or more times.</doc>
-<status status="PASS" starttime="20221006 23:53:01.891" endtime="20221006 23:53:01.891"/>
+<status status="PASS" starttime="20221008 17:00:06.202" endtime="20221008 17:00:06.202"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.889" endtime="20221006 23:53:01.892"/>
+<status status="PASS" starttime="20221008 17:00:06.202" endtime="20221008 17:00:06.202"/>
 </kw>
 <doc>In this test case will add incorrect form of json and validate the error response.</doc>
 <tag>regression</tag>
-<status status="PASS" starttime="20221006 23:53:01.865" endtime="20221006 23:53:01.892"/>
+<status status="PASS" starttime="20221008 17:00:06.186" endtime="20221008 17:00:06.202"/>
 </test>
-<status status="PASS" starttime="20221006 23:53:01.684" endtime="20221006 23:53:01.893"/>
+<status status="PASS" starttime="20221008 17:00:06.021" endtime="20221008 17:00:06.202"/>
 </suite>
 <suite id="s1-s3" name="User Story 3" source="C:\Users\kapoo\Downloads\Compressed\Oppenheimer-20221002T171833Z-001\Oppenheimer\Oppenheimer\Tests\User_Story_3.robot">
 <test id="s1-s3-t1" name="TC_1: Upload records of working class hero using CSV">
@@ -1053,19 +1053,19 @@ given `alias`</doc>
 <arg>${base_URL}</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20221006 23:53:01.906" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/'.</msg>
-<status status="PASS" starttime="20221006 23:53:01.906" endtime="20221006 23:53:04.835"/>
+<msg timestamp="20221008 17:00:06.233" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/'.</msg>
+<status status="PASS" starttime="20221008 17:00:06.218" endtime="20221008 17:00:08.757"/>
 </kw>
 <kw name="Set Screenshot Directory" library="SeleniumLibrary">
 <arg>EMBED</arg>
 <doc>Sets the directory for captured screenshots.</doc>
-<status status="PASS" starttime="20221006 23:53:04.835" endtime="20221006 23:53:04.835"/>
+<status status="PASS" starttime="20221008 17:00:08.757" endtime="20221008 17:00:08.757"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20221006 23:53:04.835" endtime="20221006 23:53:04.988"/>
+<status status="PASS" starttime="20221008 17:00:08.765" endtime="20221008 17:00:08.908"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:01.905" endtime="20221006 23:53:04.988"/>
+<status status="PASS" starttime="20221008 17:00:06.218" endtime="20221008 17:00:08.908"/>
 </kw>
 <kw name="Upload File" library="Oppenheimer_common">
 <arg>${dir_path}</arg>
@@ -1074,29 +1074,29 @@ given `alias`</doc>
 <var>${NORMAL_PATH_UPLOAD_FILE_NAME}</var>
 <arg>${File_Path}</arg>
 <doc>Normalizes the given path.</doc>
-<msg timestamp="20221006 23:53:04.989" level="INFO">${NORMAL_PATH_UPLOAD_FILE_NAME} = C:\Users\kapoo\Downloads\Compressed\Oppenheimer-20221002T171833Z-001\Oppenheimer\Oppenheimer\TestData\working_Class.csv</msg>
-<status status="PASS" starttime="20221006 23:53:04.989" endtime="20221006 23:53:04.989"/>
+<msg timestamp="20221008 17:00:08.908" level="INFO">${NORMAL_PATH_UPLOAD_FILE_NAME} = C:\Users\kapoo\Downloads\Compressed\Oppenheimer-20221002T171833Z-001\Oppenheimer\Oppenheimer\TestData\working_Class.csv</msg>
+<status status="PASS" starttime="20221008 17:00:08.908" endtime="20221008 17:00:08.908"/>
 </kw>
 <kw name="Choose File" library="SeleniumLibrary">
 <arg>${browse_button}</arg>
 <arg>${NORMAL_PATH_UPLOAD_FILE_NAME}</arg>
 <doc>Inputs the ``file_path`` into the file input field ``locator``.</doc>
-<msg timestamp="20221006 23:53:04.989" level="INFO">Sending C:\Users\kapoo\Downloads\Compressed\Oppenheimer-20221002T171833Z-001\Oppenheimer\Oppenheimer\TestData\working_Class.csv to browser.</msg>
-<status status="PASS" starttime="20221006 23:53:04.989" endtime="20221006 23:53:05.025"/>
+<msg timestamp="20221008 17:00:08.908" level="INFO">Sending C:\Users\kapoo\Downloads\Compressed\Oppenheimer-20221002T171833Z-001\Oppenheimer\Oppenheimer\TestData\working_Class.csv to browser.</msg>
+<status status="PASS" starttime="20221008 17:00:08.908" endtime="20221008 17:00:08.967"/>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <arg>2s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<msg timestamp="20221006 23:53:07.037" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" starttime="20221006 23:53:05.025" endtime="20221006 23:53:07.037"/>
+<msg timestamp="20221008 17:00:10.973" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20221008 17:00:08.967" endtime="20221008 17:00:10.973"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:04.988" endtime="20221006 23:53:07.038"/>
+<status status="PASS" starttime="20221008 17:00:08.908" endtime="20221008 17:00:10.973"/>
 </kw>
 <kw name="Click Button" library="SeleniumLibrary">
 <arg>${Refresh_Tax_Relief_Table_button}</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<msg timestamp="20221006 23:53:07.040" level="INFO">Clicking button '//*[@class='btn btn-primary']'.</msg>
-<status status="PASS" starttime="20221006 23:53:07.039" endtime="20221006 23:53:07.225"/>
+<msg timestamp="20221008 17:00:10.973" level="INFO">Clicking button '//*[@class='btn btn-primary']'.</msg>
+<status status="PASS" starttime="20221008 17:00:10.973" endtime="20221008 17:00:11.040"/>
 </kw>
 <kw name="Wait Until Keyword Succeeds" library="BuiltIn">
 <arg>5s</arg>
@@ -1107,19 +1107,19 @@ given `alias`</doc>
 <kw name="Page Should Contain Element" library="SeleniumLibrary">
 <arg>//tbody/tr/td[text()='${Expected_Natid}']</arg>
 <doc>Verifies that element ``locator`` is found on the current page.</doc>
-<msg timestamp="20221006 23:53:07.253" level="INFO">Current page contains element '//tbody/tr/td[text()='ASDS$$$$$']'.</msg>
-<status status="PASS" starttime="20221006 23:53:07.227" endtime="20221006 23:53:07.253"/>
+<msg timestamp="20221008 17:00:11.088" level="INFO">Current page contains element '//tbody/tr/td[text()='ASDS$$$$$']'.</msg>
+<status status="PASS" starttime="20221008 17:00:11.056" endtime="20221008 17:00:11.088"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:07.226" endtime="20221006 23:53:07.253"/>
+<status status="PASS" starttime="20221008 17:00:11.056" endtime="20221008 17:00:11.088"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20221006 23:53:07.254" endtime="20221006 23:53:09.369"/>
+<status status="PASS" starttime="20221008 17:00:11.088" endtime="20221008 17:00:13.266"/>
 </kw>
 <doc>uploading CSV file on UI page</doc>
 <tag>regression</tag>
 <tag>sanity</tag>
-<status status="PASS" starttime="20221006 23:53:01.905" endtime="20221006 23:53:09.370"/>
+<status status="PASS" starttime="20221008 17:00:06.218" endtime="20221008 17:00:13.266"/>
 </test>
 <test id="s1-s3-t2" name="TC_2: validate Upload CSV file and Refresh Tax Relief Table Text from UI">
 <kw name="Navigate to Oppenheimer Project" library="Oppenheimer_common">
@@ -1128,43 +1128,43 @@ given `alias`</doc>
 <arg>${base_URL}</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20221006 23:53:09.378" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/'.</msg>
-<status status="PASS" starttime="20221006 23:53:09.377" endtime="20221006 23:53:11.423"/>
+<msg timestamp="20221008 17:00:13.266" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/'.</msg>
+<status status="PASS" starttime="20221008 17:00:13.266" endtime="20221008 17:00:15.537"/>
 </kw>
 <kw name="Set Screenshot Directory" library="SeleniumLibrary">
 <arg>EMBED</arg>
 <doc>Sets the directory for captured screenshots.</doc>
-<status status="PASS" starttime="20221006 23:53:11.424" endtime="20221006 23:53:11.424"/>
+<status status="PASS" starttime="20221008 17:00:15.537" endtime="20221008 17:00:15.538"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20221006 23:53:11.424" endtime="20221006 23:53:11.552"/>
+<status status="PASS" starttime="20221008 17:00:15.538" endtime="20221008 17:00:15.665"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:09.376" endtime="20221006 23:53:11.552"/>
+<status status="PASS" starttime="20221008 17:00:13.266" endtime="20221008 17:00:15.665"/>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>${upload_CSV_file_text}</arg>
 <arg>Upload CSV file</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20221006 23:53:11.553" level="INFO">Verifying element '//*[@class='input-group-text']' contains exact text 'Upload CSV file'.</msg>
-<status status="PASS" starttime="20221006 23:53:11.552" endtime="20221006 23:53:11.580"/>
+<msg timestamp="20221008 17:00:15.665" level="INFO">Verifying element '//*[@class='input-group-text']' contains exact text 'Upload CSV file'.</msg>
+<status status="PASS" starttime="20221008 17:00:15.665" endtime="20221008 17:00:15.751"/>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>${Refresh_Tax_Relief_Table_button}</arg>
 <arg>Refresh Tax Relief Table</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20221006 23:53:11.581" level="INFO">Verifying element '//*[@class='btn btn-primary']' contains exact text 'Refresh Tax Relief Table'.</msg>
-<status status="PASS" starttime="20221006 23:53:11.580" endtime="20221006 23:53:11.607"/>
+<msg timestamp="20221008 17:00:15.759" level="INFO">Verifying element '//*[@class='btn btn-primary']' contains exact text 'Refresh Tax Relief Table'.</msg>
+<status status="PASS" starttime="20221008 17:00:15.759" endtime="20221008 17:00:15.822"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20221006 23:53:11.607" endtime="20221006 23:53:13.749"/>
+<status status="PASS" starttime="20221008 17:00:15.826" endtime="20221008 17:00:17.988"/>
 </kw>
 <doc>uploading CSV file on UI page</doc>
 <tag>regression</tag>
-<status status="PASS" starttime="20221006 23:53:09.374" endtime="20221006 23:53:13.750"/>
+<status status="PASS" starttime="20221008 17:00:13.266" endtime="20221008 17:00:17.988"/>
 </test>
-<status status="PASS" starttime="20221006 23:53:01.895" endtime="20221006 23:53:13.755"/>
+<status status="PASS" starttime="20221008 17:00:06.202" endtime="20221008 17:00:17.988"/>
 </suite>
 <suite id="s1-s4" name="User Story 4" source="C:\Users\kapoo\Downloads\Compressed\Oppenheimer-20221002T171833Z-001\Oppenheimer\Oppenheimer\Tests\User_Story_4.robot">
 <test id="s1-s4-t1" name="TC_1: Fetch the details of taxRelief for each person in the database using GET API">
@@ -1175,8 +1175,8 @@ given `alias`</doc>
 <arg>&lt;b&gt;Domain_URL: ${URL}&lt;br&gt;Path: ${Path}&lt;br&gt;Request Headers: ${json_header}&lt;br&gt;Request Params: ${json_param}&lt;/b&gt;</arg>
 <arg>HTML</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20221006 23:53:13.802" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/taxRelief&lt;br&gt;Request Headers: {}&lt;br&gt;Request Params: {}&lt;/b&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:13.801" endtime="20221006 23:53:13.802"/>
+<msg timestamp="20221008 17:00:18.066" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/taxRelief&lt;br&gt;Request Headers: {}&lt;br&gt;Request Params: {}&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.066" endtime="20221008 17:00:18.066"/>
 </kw>
 <kw name="Create Custom Session" library="RequestsLibrary">
 <arg>API_GET</arg>
@@ -1184,8 +1184,8 @@ given `alias`</doc>
 <arg>auth=${EMPTY}</arg>
 <arg>disable_warnings=1</arg>
 <doc>Create Session: create a HTTP session to a server</doc>
-<msg timestamp="20221006 23:53:13.805" level="INFO">Creating Custom Authenticated Session using : alias=API_GET, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20221006 23:53:13.802" endtime="20221006 23:53:13.806"/>
+<msg timestamp="20221008 17:00:18.066" level="INFO">Creating Custom Authenticated Session using : alias=API_GET, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20221008 17:00:18.066" endtime="20221008 17:00:18.066"/>
 </kw>
 <kw name="Get Request" library="RequestsLibrary">
 <var>${API_RESPONSE}</var>
@@ -1195,17 +1195,17 @@ given `alias`</doc>
 <arg>params=${json_param}</arg>
 <doc>Send a GET request on the session object found using the
 given `alias`</doc>
-<msg timestamp="20221006 23:53:13.829" level="INFO">GET Request : url=http://localhost:8080//calculator/taxRelief 
+<msg timestamp="20221008 17:00:18.082" level="INFO">GET Request : url=http://localhost:8080//calculator/taxRelief 
  path_url=//calculator/taxRelief 
  headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
  body=None 
  </msg>
-<msg timestamp="20221006 23:53:13.830" level="INFO">GET Response : url=http://localhost:8080//calculator/taxRelief 
+<msg timestamp="20221008 17:00:18.098" level="INFO">GET Response : url=http://localhost:8080//calculator/taxRelief 
  status=200, reason= 
- body=[{"natid":"KKD3$$$$","name":"KAmani","relief":"17911588.81"},{"natid":"QQD3$$$$","name":"Kristine","relief":"14711596.81"},{"natid":"LKLD$$$$$","name":"Harshil","relief":"6055089.61"},{"natid":"ASDS$$$$$","name":"Harshil","relief":"1207264.00"},{"natid":"ered$$$","name":"Rama","relief":"1151416.81"}] 
+ body=[{"natid":"KKD3$$$$","name":"KAmani","relief":"17911588.81"},{"natid":"QQD3$$$$","name":"Kristine","relief":"14711596.81"},{"natid":"LKLD$$$$$","name":"Harshil","relief":"6055089.61"},{"natid":"ASDS$$$$$","name":"Harshil","relief":"1207264.00"},{"natid":"ered$$$","name":"Rama","relief":"1151416.81"},{"natid":"zzzz$$$$$","name":"caroline","relief":"548.00"},{"natid":"KKD3$$$$","name":"KAmani","relief":"17911588.81"},{"natid":"QQD3$$$$","name":"Kristine","relief":"14711596.81"},{"natid":"LKLD$$$$$","name":"Harshil","relief":"6055089.61"},{"natid":"ASDS$$$$$","name":"Harshil","relief":"1207264.00"},{"natid":"ered$$$","name":"Rama","relief":"1151416.81"}] 
  </msg>
-<msg timestamp="20221006 23:53:13.830" level="INFO">${API_RESPONSE} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:13.806" endtime="20221006 23:53:13.830"/>
+<msg timestamp="20221008 17:00:18.098" level="INFO">${API_RESPONSE} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.066" endtime="20221008 17:00:18.098"/>
 </kw>
 <kw name="Log Many" library="BuiltIn">
 <arg>Response Status Code:</arg>
@@ -1215,21 +1215,41 @@ given `alias`</doc>
 <arg>Response Headers:</arg>
 <arg>${API_RESPONSE.headers}</arg>
 <doc>Logs the given messages as separate entries using the INFO level.</doc>
-<msg timestamp="20221006 23:53:13.831" level="INFO">Response Status Code:</msg>
-<msg timestamp="20221006 23:53:13.833" level="INFO">200</msg>
-<msg timestamp="20221006 23:53:13.833" level="INFO">Response Body:</msg>
-<msg timestamp="20221006 23:53:13.835" level="INFO">[{"natid":"KKD3$$$$","name":"KAmani","relief":"17911588.81"},{"natid":"QQD3$$$$","name":"Kristine","relief":"14711596.81"},{"natid":"LKLD$$$$$","name":"Harshil","relief":"6055089.61"},{"natid":"ASDS$$$$$","name":"Harshil","relief":"1207264.00"},{"natid":"ered$$$","name":"Rama","relief":"1151416.81"}]</msg>
-<msg timestamp="20221006 23:53:13.835" level="INFO">Response Headers:</msg>
-<msg timestamp="20221006 23:53:13.837" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Thu, 06 Oct 2022 18:23:13 GMT'}</msg>
-<status status="PASS" starttime="20221006 23:53:13.831" endtime="20221006 23:53:13.837"/>
+<msg timestamp="20221008 17:00:18.098" level="INFO">Response Status Code:</msg>
+<msg timestamp="20221008 17:00:18.098" level="INFO">200</msg>
+<msg timestamp="20221008 17:00:18.098" level="INFO">Response Body:</msg>
+<msg timestamp="20221008 17:00:18.098" level="INFO">[{"natid":"KKD3$$$$","name":"KAmani","relief":"17911588.81"},{"natid":"QQD3$$$$","name":"Kristine","relief":"14711596.81"},{"natid":"LKLD$$$$$","name":"Harshil","relief":"6055089.61"},{"natid":"ASDS$$$$$","name":"Harshil","relief":"1207264.00"},{"natid":"ered$$$","name":"Rama","relief":"1151416.81"},{"natid":"zzzz$$$$$","name":"caroline","relief":"548.00"},{"natid":"KKD3$$$$","name":"KAmani","relief":"17911588.81"},{"natid":"QQD3$$$$","name":"Kristine","relief":"14711596.81"},{"natid":"LKLD$$$$$","name":"Harshil","relief":"6055089.61"},{"natid":"ASDS$$$$$","name":"Harshil","relief":"1207264.00"},{"natid":"ered$$$","name":"Rama","relief":"1151416.81"}]</msg>
+<msg timestamp="20221008 17:00:18.098" level="INFO">Response Headers:</msg>
+<msg timestamp="20221008 17:00:18.098" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 08 Oct 2022 11:30:18 GMT'}</msg>
+<status status="PASS" starttime="20221008 17:00:18.098" endtime="20221008 17:00:18.098"/>
 </kw>
 <kw name="Set Suite Variable" library="BuiltIn">
 <arg>${API_RESPONSE}</arg>
 <doc>Makes a variable available everywhere within the scope of the current suite.</doc>
-<msg timestamp="20221006 23:53:13.839" level="INFO">${API_RESPONSE} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20221006 23:53:13.838" endtime="20221006 23:53:13.839"/>
+<msg timestamp="20221008 17:00:18.098" level="INFO">${API_RESPONSE} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.098" endtime="20221008 17:00:18.098"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:13.797" endtime="20221006 23:53:13.839"/>
+<status status="PASS" starttime="20221008 17:00:18.066" endtime="20221008 17:00:18.098"/>
+</kw>
+<kw name="Verify the API Response Code is" library="API_Helper">
+<arg>200</arg>
+<kw name="Log" library="BuiltIn">
+<arg>&lt;b&gt;Actual Response Status Code: ${API_RESPONSE.status_code}&lt;br&gt;Expected Response Status Code: ${expected_status_code}&lt;/b&gt;</arg>
+<arg>HTML</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221008 17:00:18.113" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 200&lt;br&gt;Expected Response Status Code: 200&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.098" endtime="20221008 17:00:18.113"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${API_RESPONSE.status_code}</arg>
+<arg>${expected_status_code}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<msg timestamp="20221008 17:00:18.113" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.113" endtime="20221008 17:00:18.113"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.098" endtime="20221008 17:00:18.113"/>
 </kw>
 <kw name="Validate TaxRelief response" library="API_Helper">
 <arg>${API_RESPONSE.content}</arg>
@@ -1241,11 +1261,11 @@ given `alias`</doc>
 <arg>json.loads('''${json_value}''')</arg>
 <arg>json</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20221006 23:53:13.859" level="INFO">${python_data} = [{'natid': 'KKD3$$$$', 'name': 'KAmani', 'relief': '17911588.81'}, {'natid': 'QQD3$$$$', 'name': 'Kristine', 'relief': '14711596.81'}, {'natid': 'LKLD$$$$$', 'name': 'Harshil', 'relief': '6055089.61'}...</msg>
-<status status="PASS" starttime="20221006 23:53:13.847" endtime="20221006 23:53:13.860"/>
+<msg timestamp="20221008 17:00:18.113" level="INFO">${python_data} = [{'natid': 'KKD3$$$$', 'name': 'KAmani', 'relief': '17911588.81'}, {'natid': 'QQD3$$$$', 'name': 'Kristine', 'relief': '14711596.81'}, {'natid': 'LKLD$$$$$', 'name': 'Harshil', 'relief': '6055089.61'}...</msg>
+<status status="PASS" starttime="20221008 17:00:18.113" endtime="20221008 17:00:18.113"/>
 </kw>
-<msg timestamp="20221006 23:53:13.860" level="INFO">${python_data} = [{'natid': 'KKD3$$$$', 'name': 'KAmani', 'relief': '17911588.81'}, {'natid': 'QQD3$$$$', 'name': 'Kristine', 'relief': '14711596.81'}, {'natid': 'LKLD$$$$$', 'name': 'Harshil', 'relief': '6055089.61'}...</msg>
-<status status="PASS" starttime="20221006 23:53:13.844" endtime="20221006 23:53:13.861"/>
+<msg timestamp="20221008 17:00:18.113" level="INFO">${python_data} = [{'natid': 'KKD3$$$$', 'name': 'KAmani', 'relief': '17911588.81'}, {'natid': 'QQD3$$$$', 'name': 'Kristine', 'relief': '14711596.81'}, {'natid': 'LKLD$$$$$', 'name': 'Harshil', 'relief': '6055089.61'}...</msg>
+<status status="PASS" starttime="20221008 17:00:18.113" endtime="20221008 17:00:18.113"/>
 </kw>
 <kw name="Verify datatype" library="API_Helper">
 <var>${is_list}</var>
@@ -1255,24 +1275,24 @@ given `alias`</doc>
 <var>${is_valid_value}</var>
 <arg>isinstance(${value}, ${data_type})</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20221006 23:53:13.864" level="INFO">${is_valid_value} = True</msg>
-<status status="PASS" starttime="20221006 23:53:13.862" endtime="20221006 23:53:13.865"/>
+<msg timestamp="20221008 17:00:18.129" level="INFO">${is_valid_value} = True</msg>
+<status status="PASS" starttime="20221008 17:00:18.129" endtime="20221008 17:00:18.129"/>
 </kw>
-<msg timestamp="20221006 23:53:13.865" level="INFO">${is_list} = True</msg>
-<status status="PASS" starttime="20221006 23:53:13.861" endtime="20221006 23:53:13.865"/>
+<msg timestamp="20221008 17:00:18.129" level="INFO">${is_list} = True</msg>
+<status status="PASS" starttime="20221008 17:00:18.113" endtime="20221008 17:00:18.129"/>
 </kw>
 <kw name="Should Be True" library="BuiltIn">
 <arg>${is_list}</arg>
 <doc>Fails if the given condition is not true.</doc>
-<status status="PASS" starttime="20221006 23:53:13.865" endtime="20221006 23:53:13.866"/>
+<status status="PASS" starttime="20221008 17:00:18.129" endtime="20221008 17:00:18.129"/>
 </kw>
 <kw name="Get Length" library="BuiltIn">
 <var>${length}</var>
 <arg>${python_data}</arg>
 <doc>Returns and logs the length of the given item as an integer.</doc>
-<msg timestamp="20221006 23:53:13.866" level="INFO">Length is 5</msg>
-<msg timestamp="20221006 23:53:13.866" level="INFO">${length} = 5</msg>
-<status status="PASS" starttime="20221006 23:53:13.866" endtime="20221006 23:53:13.867"/>
+<msg timestamp="20221008 17:00:18.129" level="INFO">Length is 11</msg>
+<msg timestamp="20221008 17:00:18.129" level="INFO">${length} = 11</msg>
+<status status="PASS" starttime="20221008 17:00:18.129" endtime="20221008 17:00:18.129"/>
 </kw>
 <if>
 <branch type="IF" condition="${length}&gt;0">
@@ -1280,33 +1300,691 @@ given `alias`</doc>
 <var>${key_list}</var>
 <arg>${python_data}[0]</arg>
 <doc>Returns keys of the given ``dictionary`` as a list.</doc>
-<msg timestamp="20221006 23:53:13.868" level="INFO">${key_list} = ['name', 'natid', 'relief']</msg>
-<status status="PASS" starttime="20221006 23:53:13.867" endtime="20221006 23:53:13.868"/>
+<msg timestamp="20221008 17:00:18.129" level="INFO">${key_list} = ['name', 'natid', 'relief']</msg>
+<status status="PASS" starttime="20221008 17:00:18.129" endtime="20221008 17:00:18.129"/>
 </kw>
 <kw name="Lists Should Be Equal" library="Collections">
 <arg>${key_list}</arg>
 <arg>${expected_keys_in_tax_relief}</arg>
 <arg>ignore_order=True</arg>
 <doc>Fails if given lists are unequal.</doc>
-<status status="PASS" starttime="20221006 23:53:13.868" endtime="20221006 23:53:13.868"/>
+<status status="PASS" starttime="20221008 17:00:18.129" endtime="20221008 17:00:18.129"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:13.867" endtime="20221006 23:53:13.869"/>
+<status status="PASS" starttime="20221008 17:00:18.129" endtime="20221008 17:00:18.129"/>
 </branch>
-<status status="PASS" starttime="20221006 23:53:13.867" endtime="20221006 23:53:13.869"/>
+<status status="PASS" starttime="20221008 17:00:18.129" endtime="20221008 17:00:18.129"/>
 </if>
-<status status="PASS" starttime="20221006 23:53:13.841" endtime="20221006 23:53:13.869"/>
+<status status="PASS" starttime="20221008 17:00:18.113" endtime="20221008 17:00:18.129"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20221006 23:53:13.870" endtime="20221006 23:53:13.870"/>
+<status status="PASS" starttime="20221008 17:00:18.129" endtime="20221008 17:00:18.129"/>
 </kw>
 <doc>This test case run the Get api and returns a list consist of natid, tax relief
 amount.</doc>
 <tag>regression</tag>
 <tag>sanity</tag>
-<status status="PASS" starttime="20221006 23:53:13.794" endtime="20221006 23:53:13.871"/>
+<status status="PASS" starttime="20221008 17:00:18.051" endtime="20221008 17:00:18.129"/>
 </test>
-<status status="PASS" starttime="20221006 23:53:13.762" endtime="20221006 23:53:13.873"/>
+<test id="s1-s4-t2" name="TC_2: Validate that the natid field must be masked from the 5th character onwards with dollar sign ‘$’">
+<kw name="Make a GET API Request with" library="API_Helper">
+<arg>${Base_URL}</arg>
+<arg>calculator/taxRelief</arg>
+<kw name="Log" library="BuiltIn">
+<arg>&lt;b&gt;Domain_URL: ${URL}&lt;br&gt;Path: ${Path}&lt;br&gt;Request Headers: ${json_header}&lt;br&gt;Request Params: ${json_param}&lt;/b&gt;</arg>
+<arg>HTML</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221008 17:00:18.129" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/taxRelief&lt;br&gt;Request Headers: {}&lt;br&gt;Request Params: {}&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.129" endtime="20221008 17:00:18.129"/>
+</kw>
+<kw name="Create Custom Session" library="RequestsLibrary">
+<arg>API_GET</arg>
+<arg>${URL}</arg>
+<arg>auth=${EMPTY}</arg>
+<arg>disable_warnings=1</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<msg timestamp="20221008 17:00:18.129" level="INFO">Creating Custom Authenticated Session using : alias=API_GET, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20221008 17:00:18.129" endtime="20221008 17:00:18.129"/>
+</kw>
+<kw name="Get Request" library="RequestsLibrary">
+<var>${API_RESPONSE}</var>
+<arg>API_GET</arg>
+<arg>${Path}</arg>
+<arg>headers=${json_header}</arg>
+<arg>params=${json_param}</arg>
+<doc>Send a GET request on the session object found using the
+given `alias`</doc>
+<msg timestamp="20221008 17:00:18.144" level="INFO">GET Request : url=http://localhost:8080//calculator/taxRelief 
+ path_url=//calculator/taxRelief 
+ headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
+ body=None 
+ </msg>
+<msg timestamp="20221008 17:00:18.144" level="INFO">GET Response : url=http://localhost:8080//calculator/taxRelief 
+ status=200, reason= 
+ body=[{"natid":"KKD3$$$$","name":"KAmani","relief":"17911588.81"},{"natid":"QQD3$$$$","name":"Kristine","relief":"14711596.81"},{"natid":"LKLD$$$$$","name":"Harshil","relief":"6055089.61"},{"natid":"ASDS$$$$$","name":"Harshil","relief":"1207264.00"},{"natid":"ered$$$","name":"Rama","relief":"1151416.81"},{"natid":"zzzz$$$$$","name":"caroline","relief":"548.00"},{"natid":"KKD3$$$$","name":"KAmani","relief":"17911588.81"},{"natid":"QQD3$$$$","name":"Kristine","relief":"14711596.81"},{"natid":"LKLD$$$$$","name":"Harshil","relief":"6055089.61"},{"natid":"ASDS$$$$$","name":"Harshil","relief":"1207264.00"},{"natid":"ered$$$","name":"Rama","relief":"1151416.81"}] 
+ </msg>
+<msg timestamp="20221008 17:00:18.144" level="INFO">${API_RESPONSE} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.129" endtime="20221008 17:00:18.144"/>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<arg>Response Status Code:</arg>
+<arg>${API_RESPONSE.status_code}</arg>
+<arg>Response Body:</arg>
+<arg>${API_RESPONSE.content}</arg>
+<arg>Response Headers:</arg>
+<arg>${API_RESPONSE.headers}</arg>
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<msg timestamp="20221008 17:00:18.144" level="INFO">Response Status Code:</msg>
+<msg timestamp="20221008 17:00:18.144" level="INFO">200</msg>
+<msg timestamp="20221008 17:00:18.144" level="INFO">Response Body:</msg>
+<msg timestamp="20221008 17:00:18.144" level="INFO">[{"natid":"KKD3$$$$","name":"KAmani","relief":"17911588.81"},{"natid":"QQD3$$$$","name":"Kristine","relief":"14711596.81"},{"natid":"LKLD$$$$$","name":"Harshil","relief":"6055089.61"},{"natid":"ASDS$$$$$","name":"Harshil","relief":"1207264.00"},{"natid":"ered$$$","name":"Rama","relief":"1151416.81"},{"natid":"zzzz$$$$$","name":"caroline","relief":"548.00"},{"natid":"KKD3$$$$","name":"KAmani","relief":"17911588.81"},{"natid":"QQD3$$$$","name":"Kristine","relief":"14711596.81"},{"natid":"LKLD$$$$$","name":"Harshil","relief":"6055089.61"},{"natid":"ASDS$$$$$","name":"Harshil","relief":"1207264.00"},{"natid":"ered$$$","name":"Rama","relief":"1151416.81"}]</msg>
+<msg timestamp="20221008 17:00:18.144" level="INFO">Response Headers:</msg>
+<msg timestamp="20221008 17:00:18.144" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 08 Oct 2022 11:30:18 GMT'}</msg>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<arg>${API_RESPONSE}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<msg timestamp="20221008 17:00:18.144" level="INFO">${API_RESPONSE} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.129" endtime="20221008 17:00:18.144"/>
+</kw>
+<kw name="Verify the API Response Code is" library="API_Helper">
+<arg>200</arg>
+<kw name="Log" library="BuiltIn">
+<arg>&lt;b&gt;Actual Response Status Code: ${API_RESPONSE.status_code}&lt;br&gt;Expected Response Status Code: ${expected_status_code}&lt;/b&gt;</arg>
+<arg>HTML</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221008 17:00:18.144" level="INFO" html="true">&lt;b&gt;Actual Response Status Code: 200&lt;br&gt;Expected Response Status Code: 200&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>${API_RESPONSE.status_code}</arg>
+<arg>${expected_status_code}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<msg timestamp="20221008 17:00:18.144" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;type 'unicode'&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</kw>
+<for flavor="IN">
+<var>${response_value}</var>
+<value>@{API_RESPONSE.json()}</value>
+<iter>
+<var name="${response_value}">{'natid': 'KKD3$$$$', 'name': 'KAmani', 'relief': '17911588.81'}</var>
+<kw name="Should Match Regexp" library="BuiltIn">
+<arg>${response_value}[natid]</arg>
+<arg>^.{4}\\$*$</arg>
+<doc>Fails if ``string`` does not match ``pattern`` as a regular expression.</doc>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</iter>
+<iter>
+<var name="${response_value}">{'natid': 'QQD3$$$$', 'name': 'Kristine', 'relief': '14711596.81'}</var>
+<kw name="Should Match Regexp" library="BuiltIn">
+<arg>${response_value}[natid]</arg>
+<arg>^.{4}\\$*$</arg>
+<doc>Fails if ``string`` does not match ``pattern`` as a regular expression.</doc>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</iter>
+<iter>
+<var name="${response_value}">{'natid': 'LKLD$$$$$', 'name': 'Harshil', 'relief': '6055089.61'}</var>
+<kw name="Should Match Regexp" library="BuiltIn">
+<arg>${response_value}[natid]</arg>
+<arg>^.{4}\\$*$</arg>
+<doc>Fails if ``string`` does not match ``pattern`` as a regular expression.</doc>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</iter>
+<iter>
+<var name="${response_value}">{'natid': 'ASDS$$$$$', 'name': 'Harshil', 'relief': '1207264.00'}</var>
+<kw name="Should Match Regexp" library="BuiltIn">
+<arg>${response_value}[natid]</arg>
+<arg>^.{4}\\$*$</arg>
+<doc>Fails if ``string`` does not match ``pattern`` as a regular expression.</doc>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</iter>
+<iter>
+<var name="${response_value}">{'natid': 'ered$$$', 'name': 'Rama', 'relief': '1151416.81'}</var>
+<kw name="Should Match Regexp" library="BuiltIn">
+<arg>${response_value}[natid]</arg>
+<arg>^.{4}\\$*$</arg>
+<doc>Fails if ``string`` does not match ``pattern`` as a regular expression.</doc>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</iter>
+<iter>
+<var name="${response_value}">{'natid': 'zzzz$$$$$', 'name': 'caroline', 'relief': '548.00'}</var>
+<kw name="Should Match Regexp" library="BuiltIn">
+<arg>${response_value}[natid]</arg>
+<arg>^.{4}\\$*$</arg>
+<doc>Fails if ``string`` does not match ``pattern`` as a regular expression.</doc>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</iter>
+<iter>
+<var name="${response_value}">{'natid': 'KKD3$$$$', 'name': 'KAmani', 'relief': '17911588.81'}</var>
+<kw name="Should Match Regexp" library="BuiltIn">
+<arg>${response_value}[natid]</arg>
+<arg>^.{4}\\$*$</arg>
+<doc>Fails if ``string`` does not match ``pattern`` as a regular expression.</doc>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.144"/>
+</iter>
+<iter>
+<var name="${response_value}">{'natid': 'QQD3$$$$', 'name': 'Kristine', 'relief': '14711596.81'}</var>
+<kw name="Should Match Regexp" library="BuiltIn">
+<arg>${response_value}[natid]</arg>
+<arg>^.{4}\\$*$</arg>
+<doc>Fails if ``string`` does not match ``pattern`` as a regular expression.</doc>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.160"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.160"/>
+</iter>
+<iter>
+<var name="${response_value}">{'natid': 'LKLD$$$$$', 'name': 'Harshil', 'relief': '6055089.61'}</var>
+<kw name="Should Match Regexp" library="BuiltIn">
+<arg>${response_value}[natid]</arg>
+<arg>^.{4}\\$*$</arg>
+<doc>Fails if ``string`` does not match ``pattern`` as a regular expression.</doc>
+<status status="PASS" starttime="20221008 17:00:18.160" endtime="20221008 17:00:18.160"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.160" endtime="20221008 17:00:18.160"/>
+</iter>
+<iter>
+<var name="${response_value}">{'natid': 'ASDS$$$$$', 'name': 'Harshil', 'relief': '1207264.00'}</var>
+<kw name="Should Match Regexp" library="BuiltIn">
+<arg>${response_value}[natid]</arg>
+<arg>^.{4}\\$*$</arg>
+<doc>Fails if ``string`` does not match ``pattern`` as a regular expression.</doc>
+<status status="PASS" starttime="20221008 17:00:18.160" endtime="20221008 17:00:18.160"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.160" endtime="20221008 17:00:18.160"/>
+</iter>
+<iter>
+<var name="${response_value}">{'natid': 'ered$$$', 'name': 'Rama', 'relief': '1151416.81'}</var>
+<kw name="Should Match Regexp" library="BuiltIn">
+<arg>${response_value}[natid]</arg>
+<arg>^.{4}\\$*$</arg>
+<doc>Fails if ``string`` does not match ``pattern`` as a regular expression.</doc>
+<status status="PASS" starttime="20221008 17:00:18.160" endtime="20221008 17:00:18.160"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.160" endtime="20221008 17:00:18.160"/>
+</iter>
+<status status="PASS" starttime="20221008 17:00:18.144" endtime="20221008 17:00:18.160"/>
+</for>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221008 17:00:18.160" endtime="20221008 17:00:18.160"/>
+</kw>
+<doc>This test case will validate the natid with masked value</doc>
+<tag>regression</tag>
+<tag>sanity</tag>
+<status status="PASS" starttime="20221008 17:00:18.129" endtime="20221008 17:00:18.160"/>
+</test>
+<test id="s1-s4-t3" name="TC_3: Calculate the computation of the tax relief using the formula as described and round off">
+<kw name="Make a POST API Request with" library="API_Helper">
+<arg>${Base_URL}</arg>
+<arg>calculator/insert</arg>
+<arg>${Request_header}</arg>
+<arg>${Single_record}</arg>
+<kw name="Log" library="BuiltIn">
+<arg>&lt;b&gt;Domain_URL: ${URL}&lt;br&gt;Path: ${Path}&lt;br&gt;Request Headers: ${json_header}&lt;br&gt;Request Body: ${json_body}&lt;/b&gt;</arg>
+<arg>HTML</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221008 17:00:18.160" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/insert&lt;br&gt;Request Headers: {'Content-Type': 'application/json'}&lt;br&gt;Request Body: {'birthday': 10101995, 'gender': 'F', 'name': 'caroline', 'natid': 'zzzz45655', 'salary': 100, 'tax': 40}&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.160" endtime="20221008 17:00:18.160"/>
+</kw>
+<kw name="Create Custom Session" library="RequestsLibrary">
+<arg>API_POST</arg>
+<arg>${URL}</arg>
+<arg>auth=${EMPTY}</arg>
+<arg>disable_warnings=1</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<msg timestamp="20221008 17:00:18.160" level="INFO">Creating Custom Authenticated Session using : alias=API_POST, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20221008 17:00:18.160" endtime="20221008 17:00:18.160"/>
+</kw>
+<kw name="Post Request" library="RequestsLibrary">
+<var>${API_RESPONSE}</var>
+<arg>API_POST</arg>
+<arg>${Path}</arg>
+<arg>headers=${json_header}</arg>
+<arg>data=${json_body}</arg>
+<doc>Send a POST request on the session object found using the
+given `alias`</doc>
+<msg timestamp="20221008 17:00:18.160" level="INFO">POST Request : url=http://localhost:8080//calculator/insert 
+ path_url=//calculator/insert 
+ headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'Content-Length': '105'} 
+ body={"birthday": 10101995, "gender": "F", "name": "caroline", "natid": "zzzz45655", "salary": 100, "tax": 40} 
+ </msg>
+<msg timestamp="20221008 17:00:18.160" level="INFO">POST Response : url=http://localhost:8080//calculator/insert 
+ status=202, reason= 
+ body=Alright 
+ </msg>
+<msg timestamp="20221008 17:00:18.160" level="INFO">${API_RESPONSE} = &lt;Response [202]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.160" endtime="20221008 17:00:18.160"/>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<arg>Response Status Code:</arg>
+<arg>${API_RESPONSE.status_code}</arg>
+<arg>Response Body:</arg>
+<arg>${API_RESPONSE.content}</arg>
+<arg>Response Headers:</arg>
+<arg>${API_RESPONSE.headers}</arg>
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<msg timestamp="20221008 17:00:18.160" level="INFO">Response Status Code:</msg>
+<msg timestamp="20221008 17:00:18.160" level="INFO">202</msg>
+<msg timestamp="20221008 17:00:18.160" level="INFO">Response Body:</msg>
+<msg timestamp="20221008 17:00:18.176" level="INFO">Alright</msg>
+<msg timestamp="20221008 17:00:18.176" level="INFO">Response Headers:</msg>
+<msg timestamp="20221008 17:00:18.176" level="INFO">{'Content-Type': 'text/plain;charset=UTF-8', 'Content-Length': '7', 'Date': 'Sat, 08 Oct 2022 11:30:18 GMT'}</msg>
+<status status="PASS" starttime="20221008 17:00:18.160" endtime="20221008 17:00:18.176"/>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<arg>${API_RESPONSE}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<msg timestamp="20221008 17:00:18.176" level="INFO">${API_RESPONSE} = &lt;Response [202]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.176" endtime="20221008 17:00:18.176"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.160" endtime="20221008 17:00:18.176"/>
+</kw>
+<kw name="Make a GET API Request with" library="API_Helper">
+<arg>${Base_URL}</arg>
+<arg>calculator/taxRelief</arg>
+<kw name="Log" library="BuiltIn">
+<arg>&lt;b&gt;Domain_URL: ${URL}&lt;br&gt;Path: ${Path}&lt;br&gt;Request Headers: ${json_header}&lt;br&gt;Request Params: ${json_param}&lt;/b&gt;</arg>
+<arg>HTML</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20221008 17:00:18.176" level="INFO" html="true">&lt;b&gt;Domain_URL: http://localhost:8080/&lt;br&gt;Path: calculator/taxRelief&lt;br&gt;Request Headers: {}&lt;br&gt;Request Params: {}&lt;/b&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.176" endtime="20221008 17:00:18.176"/>
+</kw>
+<kw name="Create Custom Session" library="RequestsLibrary">
+<arg>API_GET</arg>
+<arg>${URL}</arg>
+<arg>auth=${EMPTY}</arg>
+<arg>disable_warnings=1</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<msg timestamp="20221008 17:00:18.176" level="INFO">Creating Custom Authenticated Session using : alias=API_GET, url=http://localhost:8080/, headers={},                     cookies={}, auth=, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20221008 17:00:18.176" endtime="20221008 17:00:18.176"/>
+</kw>
+<kw name="Get Request" library="RequestsLibrary">
+<var>${API_RESPONSE}</var>
+<arg>API_GET</arg>
+<arg>${Path}</arg>
+<arg>headers=${json_header}</arg>
+<arg>params=${json_param}</arg>
+<doc>Send a GET request on the session object found using the
+given `alias`</doc>
+<msg timestamp="20221008 17:00:18.176" level="INFO">GET Request : url=http://localhost:8080//calculator/taxRelief 
+ path_url=//calculator/taxRelief 
+ headers={'User-Agent': 'python-requests/2.28.1', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
+ body=None 
+ </msg>
+<msg timestamp="20221008 17:00:18.176" level="INFO">GET Response : url=http://localhost:8080//calculator/taxRelief 
+ status=200, reason= 
+ body=[{"natid":"KKD3$$$$","name":"KAmani","relief":"17911588.81"},{"natid":"QQD3$$$$","name":"Kristine","relief":"14711596.81"},{"natid":"LKLD$$$$$","name":"Harshil","relief":"6055089.61"},{"natid":"ASDS$$$$$","name":"Harshil","relief":"1207264.00"},{"natid":"ered$$$","name":"Rama","relief":"1151416.81"},{"natid":"zzzz$$$$$","name":"caroline","relief":"548.00"},{"natid":"KKD3$$$$","name":"KAmani","relief":"17911588.81"},{"natid":"QQD3$$$$","name":"Kristine","relief":"14711596.81"},{"natid":"LKLD$$$$$","name":"Harshil","relief":"6055089.61"},{"natid":"ASDS$$$$$","name":"Harshil","relief":"1207264.00"},{"natid":"ered$$$","name":"Rama","relief":"1151416.81"},{"natid":"zzzz$$$$$","name":"caroline","relief":"548.00"}] 
+ </msg>
+<msg timestamp="20221008 17:00:18.176" level="INFO">${API_RESPONSE} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.176" endtime="20221008 17:00:18.176"/>
+</kw>
+<kw name="Log Many" library="BuiltIn">
+<arg>Response Status Code:</arg>
+<arg>${API_RESPONSE.status_code}</arg>
+<arg>Response Body:</arg>
+<arg>${API_RESPONSE.content}</arg>
+<arg>Response Headers:</arg>
+<arg>${API_RESPONSE.headers}</arg>
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<msg timestamp="20221008 17:00:18.176" level="INFO">Response Status Code:</msg>
+<msg timestamp="20221008 17:00:18.176" level="INFO">200</msg>
+<msg timestamp="20221008 17:00:18.176" level="INFO">Response Body:</msg>
+<msg timestamp="20221008 17:00:18.176" level="INFO">[{"natid":"KKD3$$$$","name":"KAmani","relief":"17911588.81"},{"natid":"QQD3$$$$","name":"Kristine","relief":"14711596.81"},{"natid":"LKLD$$$$$","name":"Harshil","relief":"6055089.61"},{"natid":"ASDS$$$$$","name":"Harshil","relief":"1207264.00"},{"natid":"ered$$$","name":"Rama","relief":"1151416.81"},{"natid":"zzzz$$$$$","name":"caroline","relief":"548.00"},{"natid":"KKD3$$$$","name":"KAmani","relief":"17911588.81"},{"natid":"QQD3$$$$","name":"Kristine","relief":"14711596.81"},{"natid":"LKLD$$$$$","name":"Harshil","relief":"6055089.61"},{"natid":"ASDS$$$$$","name":"Harshil","relief":"1207264.00"},{"natid":"ered$$$","name":"Rama","relief":"1151416.81"},{"natid":"zzzz$$$$$","name":"caroline","relief":"548.00"}]</msg>
+<msg timestamp="20221008 17:00:18.176" level="INFO">Response Headers:</msg>
+<msg timestamp="20221008 17:00:18.176" level="INFO">{'Content-Type': 'application/json;charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Date': 'Sat, 08 Oct 2022 11:30:18 GMT'}</msg>
+<status status="PASS" starttime="20221008 17:00:18.176" endtime="20221008 17:00:18.176"/>
+</kw>
+<kw name="Set Suite Variable" library="BuiltIn">
+<arg>${API_RESPONSE}</arg>
+<doc>Makes a variable available everywhere within the scope of the current suite.</doc>
+<msg timestamp="20221008 17:00:18.176" level="INFO">${API_RESPONSE} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20221008 17:00:18.176" endtime="20221008 17:00:18.176"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.176" endtime="20221008 17:00:18.176"/>
+</kw>
+<kw name="Get python object for JSON" library="API_Helper">
+<var>${taxRelief_list}</var>
+<arg>${API_RESPONSE.content}</arg>
+<kw name="Evaluate" library="BuiltIn">
+<var>${python_data}</var>
+<arg>json.loads('''${json_value}''')</arg>
+<arg>json</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20221008 17:00:18.191" level="INFO">${python_data} = [{'natid': 'KKD3$$$$', 'name': 'KAmani', 'relief': '17911588.81'}, {'natid': 'QQD3$$$$', 'name': 'Kristine', 'relief': '14711596.81'}, {'natid': 'LKLD$$$$$', 'name': 'Harshil', 'relief': '6055089.61'}...</msg>
+<status status="PASS" starttime="20221008 17:00:18.176" endtime="20221008 17:00:18.191"/>
+</kw>
+<msg timestamp="20221008 17:00:18.191" level="INFO">${taxRelief_list} = [{'natid': 'KKD3$$$$', 'name': 'KAmani', 'relief': '17911588.81'}, {'natid': 'QQD3$$$$', 'name': 'Kristine', 'relief': '14711596.81'}, {'natid': 'LKLD$$$$$', 'name': 'Harshil', 'relief': '6055089.61'}...</msg>
+<status status="PASS" starttime="20221008 17:00:18.176" endtime="20221008 17:00:18.191"/>
+</kw>
+<for flavor="IN">
+<var>${user_record}</var>
+<value>@{taxRelief_list}</value>
+<iter>
+<var name="${user_record}">{'natid': 'KKD3$$$$', 'name': 'KAmani', 'relief': '17911588.81'}</var>
+<if>
+<branch type="IF" condition="&quot;${user_record}[name]&quot; == &quot;${Single_record}[name]&quot;">
+<kw name="Set Variable" library="BuiltIn">
+<var>${tax_relief_response}</var>
+<arg>${user_record}[relief]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<arg>${tax_relief_response}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</kw>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</branch>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</if>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</iter>
+<iter>
+<var name="${user_record}">{'natid': 'QQD3$$$$', 'name': 'Kristine', 'relief': '14711596.81'}</var>
+<if>
+<branch type="IF" condition="&quot;${user_record}[name]&quot; == &quot;${Single_record}[name]&quot;">
+<kw name="Set Variable" library="BuiltIn">
+<var>${tax_relief_response}</var>
+<arg>${user_record}[relief]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<arg>${tax_relief_response}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</kw>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</branch>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</if>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</iter>
+<iter>
+<var name="${user_record}">{'natid': 'LKLD$$$$$', 'name': 'Harshil', 'relief': '6055089.61'}</var>
+<if>
+<branch type="IF" condition="&quot;${user_record}[name]&quot; == &quot;${Single_record}[name]&quot;">
+<kw name="Set Variable" library="BuiltIn">
+<var>${tax_relief_response}</var>
+<arg>${user_record}[relief]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<arg>${tax_relief_response}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</kw>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</branch>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</if>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</iter>
+<iter>
+<var name="${user_record}">{'natid': 'ASDS$$$$$', 'name': 'Harshil', 'relief': '1207264.00'}</var>
+<if>
+<branch type="IF" condition="&quot;${user_record}[name]&quot; == &quot;${Single_record}[name]&quot;">
+<kw name="Set Variable" library="BuiltIn">
+<var>${tax_relief_response}</var>
+<arg>${user_record}[relief]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<arg>${tax_relief_response}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</kw>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</branch>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</if>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</iter>
+<iter>
+<var name="${user_record}">{'natid': 'ered$$$', 'name': 'Rama', 'relief': '1151416.81'}</var>
+<if>
+<branch type="IF" condition="&quot;${user_record}[name]&quot; == &quot;${Single_record}[name]&quot;">
+<kw name="Set Variable" library="BuiltIn">
+<var>${tax_relief_response}</var>
+<arg>${user_record}[relief]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<arg>${tax_relief_response}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</kw>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</branch>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</if>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</iter>
+<iter>
+<var name="${user_record}">{'natid': 'zzzz$$$$$', 'name': 'caroline', 'relief': '548.00'}</var>
+<if>
+<branch type="IF" condition="&quot;${user_record}[name]&quot; == &quot;${Single_record}[name]&quot;">
+<kw name="Set Variable" library="BuiltIn">
+<var>${tax_relief_response}</var>
+<arg>${user_record}[relief]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20221008 17:00:18.191" level="INFO">${tax_relief_response} = 548.00</msg>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<arg>${tax_relief_response}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<msg timestamp="20221008 17:00:18.191" level="INFO">${tax_relief_response} = 548.00</msg>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</branch>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</if>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</iter>
+<iter>
+<var name="${user_record}">{'natid': 'KKD3$$$$', 'name': 'KAmani', 'relief': '17911588.81'}</var>
+<if>
+<branch type="IF" condition="&quot;${user_record}[name]&quot; == &quot;${Single_record}[name]&quot;">
+<kw name="Set Variable" library="BuiltIn">
+<var>${tax_relief_response}</var>
+<arg>${user_record}[relief]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<arg>${tax_relief_response}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</kw>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</branch>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</if>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.191"/>
+</iter>
+<iter>
+<var name="${user_record}">{'natid': 'QQD3$$$$', 'name': 'Kristine', 'relief': '14711596.81'}</var>
+<if>
+<branch type="IF" condition="&quot;${user_record}[name]&quot; == &quot;${Single_record}[name]&quot;">
+<kw name="Set Variable" library="BuiltIn">
+<var>${tax_relief_response}</var>
+<arg>${user_record}[relief]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<arg>${tax_relief_response}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<status status="NOT RUN" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.207"/>
+</branch>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.207"/>
+</if>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.207"/>
+</iter>
+<iter>
+<var name="${user_record}">{'natid': 'LKLD$$$$$', 'name': 'Harshil', 'relief': '6055089.61'}</var>
+<if>
+<branch type="IF" condition="&quot;${user_record}[name]&quot; == &quot;${Single_record}[name]&quot;">
+<kw name="Set Variable" library="BuiltIn">
+<var>${tax_relief_response}</var>
+<arg>${user_record}[relief]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<arg>${tax_relief_response}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<status status="NOT RUN" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</branch>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</if>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</iter>
+<iter>
+<var name="${user_record}">{'natid': 'ASDS$$$$$', 'name': 'Harshil', 'relief': '1207264.00'}</var>
+<if>
+<branch type="IF" condition="&quot;${user_record}[name]&quot; == &quot;${Single_record}[name]&quot;">
+<kw name="Set Variable" library="BuiltIn">
+<var>${tax_relief_response}</var>
+<arg>${user_record}[relief]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<arg>${tax_relief_response}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<status status="NOT RUN" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</branch>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</if>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</iter>
+<iter>
+<var name="${user_record}">{'natid': 'ered$$$', 'name': 'Rama', 'relief': '1151416.81'}</var>
+<if>
+<branch type="IF" condition="&quot;${user_record}[name]&quot; == &quot;${Single_record}[name]&quot;">
+<kw name="Set Variable" library="BuiltIn">
+<var>${tax_relief_response}</var>
+<arg>${user_record}[relief]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<arg>${tax_relief_response}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<status status="NOT RUN" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<status status="NOT RUN" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</branch>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</if>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</iter>
+<iter>
+<var name="${user_record}">{'natid': 'zzzz$$$$$', 'name': 'caroline', 'relief': '548.00'}</var>
+<if>
+<branch type="IF" condition="&quot;${user_record}[name]&quot; == &quot;${Single_record}[name]&quot;">
+<kw name="Set Variable" library="BuiltIn">
+<var>${tax_relief_response}</var>
+<arg>${user_record}[relief]</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20221008 17:00:18.207" level="INFO">${tax_relief_response} = 548.00</msg>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<arg>${tax_relief_response}</arg>
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<msg timestamp="20221008 17:00:18.207" level="INFO">${tax_relief_response} = 548.00</msg>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</branch>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</if>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</iter>
+<status status="PASS" starttime="20221008 17:00:18.191" endtime="20221008 17:00:18.207"/>
+</for>
+<kw name="Convert To String" library="BuiltIn">
+<var>${yyyy}</var>
+<arg>${Single_record}[birthday]</arg>
+<doc>Converts the given item to a Unicode string.</doc>
+<msg timestamp="20221008 17:00:18.207" level="INFO">${yyyy} = 10101995</msg>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<kw name="Get Substring" library="String">
+<var>${birth_year}</var>
+<arg>${YYYY}</arg>
+<arg>-4</arg>
+<doc>Returns a substring from ``start`` index to ``end`` index.</doc>
+<msg timestamp="20221008 17:00:18.207" level="INFO">${birth_year} = 1995</msg>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${age}</var>
+<arg>2022 - ${birth_year}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20221008 17:00:18.207" level="INFO">${age} = 27</msg>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<kw name="Get Final Tax Relief" library="tax_relief">
+<var>${tax_relief_compute}</var>
+<arg>${Single_record}[salary]</arg>
+<arg>${Single_record}[tax]</arg>
+<arg>${age}</arg>
+<arg>${Single_record}[gender]</arg>
+<msg timestamp="20221008 17:00:18.207" level="INFO">${tax_relief_compute} = 548.00</msg>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${tax_relief_compute}</arg>
+<arg>${tax_relief_response}</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:18.207"/>
+</kw>
+<doc>This test case will use the formula and calculate and validate the tax relief</doc>
+<tag>regression</tag>
+<tag>sanity</tag>
+<status status="PASS" starttime="20221008 17:00:18.160" endtime="20221008 17:00:18.207"/>
+</test>
+<status status="PASS" starttime="20221008 17:00:17.988" endtime="20221008 17:00:18.207"/>
 </suite>
 <suite id="s1-s5" name="User Story 5" source="C:\Users\kapoo\Downloads\Compressed\Oppenheimer-20221002T171833Z-001\Oppenheimer\Oppenheimer\Tests\User_Story_5.robot">
 <test id="s1-s5-t1" name="TC_1: Validate Dispense Now button on the UI must be red-colored">
@@ -1316,44 +1994,44 @@ amount.</doc>
 <arg>${base_URL}</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20221006 23:53:13.891" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/'.</msg>
-<status status="PASS" starttime="20221006 23:53:13.891" endtime="20221006 23:53:15.998"/>
+<msg timestamp="20221008 17:00:18.223" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/'.</msg>
+<status status="PASS" starttime="20221008 17:00:18.223" endtime="20221008 17:00:20.741"/>
 </kw>
 <kw name="Set Screenshot Directory" library="SeleniumLibrary">
 <arg>EMBED</arg>
 <doc>Sets the directory for captured screenshots.</doc>
-<status status="PASS" starttime="20221006 23:53:15.998" endtime="20221006 23:53:15.999"/>
+<status status="PASS" starttime="20221008 17:00:20.741" endtime="20221008 17:00:20.741"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20221006 23:53:15.999" endtime="20221006 23:53:16.135"/>
+<status status="PASS" starttime="20221008 17:00:20.741" endtime="20221008 17:00:20.879"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:13.890" endtime="20221006 23:53:16.135"/>
+<status status="PASS" starttime="20221008 17:00:18.223" endtime="20221008 17:00:20.879"/>
 </kw>
 <kw name="Execute Javascript" library="SeleniumLibrary">
 <var>${style}</var>
 <arg>return getComputedStyle(document.querySelector('a.btn.btn-danger.btn-block')).getPropertyValue('background-color')</arg>
 <doc>Executes the given JavaScript code with possible arguments.</doc>
-<msg timestamp="20221006 23:53:16.137" level="INFO">Executing JavaScript:
+<msg timestamp="20221008 17:00:20.879" level="INFO">Executing JavaScript:
 return getComputedStyle(document.querySelector('a.btn.btn-danger.btn-block')).getPropertyValue('background-color')
 Without any arguments.</msg>
-<msg timestamp="20221006 23:53:16.150" level="INFO">${style} = rgb(220, 53, 69)</msg>
-<status status="PASS" starttime="20221006 23:53:16.136" endtime="20221006 23:53:16.150"/>
+<msg timestamp="20221008 17:00:20.879" level="INFO">${style} = rgb(220, 53, 69)</msg>
+<status status="PASS" starttime="20221008 17:00:20.879" endtime="20221008 17:00:20.879"/>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <arg>${style}</arg>
 <arg>${Red_Color}</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" starttime="20221006 23:53:16.151" endtime="20221006 23:53:16.152"/>
+<status status="PASS" starttime="20221008 17:00:20.879" endtime="20221008 17:00:20.879"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20221006 23:53:16.153" endtime="20221006 23:53:18.267"/>
+<status status="PASS" starttime="20221008 17:00:20.879" endtime="20221008 17:00:23.062"/>
 </kw>
 <doc>This test case is validating the Dispense Now button color attribute</doc>
 <tag>regression</tag>
 <tag>sanity</tag>
-<status status="PASS" starttime="20221006 23:53:13.888" endtime="20221006 23:53:18.268"/>
+<status status="PASS" starttime="20221008 17:00:18.223" endtime="20221008 17:00:23.062"/>
 </test>
 <test id="s1-s5-t2" name="TC_2: Validate the text on the button must be exactly “Dispense Now”">
 <kw name="Navigate to Oppenheimer Project" library="Oppenheimer_common">
@@ -1362,34 +2040,34 @@ Without any arguments.</msg>
 <arg>${base_URL}</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20221006 23:53:18.276" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/'.</msg>
-<status status="PASS" starttime="20221006 23:53:18.275" endtime="20221006 23:53:20.803"/>
+<msg timestamp="20221008 17:00:23.062" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/'.</msg>
+<status status="PASS" starttime="20221008 17:00:23.062" endtime="20221008 17:00:25.336"/>
 </kw>
 <kw name="Set Screenshot Directory" library="SeleniumLibrary">
 <arg>EMBED</arg>
 <doc>Sets the directory for captured screenshots.</doc>
-<status status="PASS" starttime="20221006 23:53:20.804" endtime="20221006 23:53:20.804"/>
+<status status="PASS" starttime="20221008 17:00:25.336" endtime="20221008 17:00:25.336"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20221006 23:53:20.805" endtime="20221006 23:53:20.925"/>
+<status status="PASS" starttime="20221008 17:00:25.336" endtime="20221008 17:00:25.477"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:18.274" endtime="20221006 23:53:20.925"/>
+<status status="PASS" starttime="20221008 17:00:23.062" endtime="20221008 17:00:25.477"/>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>${Dispense_button}</arg>
 <arg>Dispense Now</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20221006 23:53:20.926" level="INFO">Verifying element '//*[@class= 'btn btn-danger btn-block']' contains exact text 'Dispense Now'.</msg>
-<status status="PASS" starttime="20221006 23:53:20.926" endtime="20221006 23:53:20.952"/>
+<msg timestamp="20221008 17:00:25.477" level="INFO">Verifying element '//*[@class= 'btn btn-danger btn-block']' contains exact text 'Dispense Now'.</msg>
+<status status="PASS" starttime="20221008 17:00:25.477" endtime="20221008 17:00:25.508"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20221006 23:53:20.953" endtime="20221006 23:53:23.099"/>
+<status status="PASS" starttime="20221008 17:00:25.508" endtime="20221008 17:00:27.651"/>
 </kw>
 <doc>This test case is validating the Dispense Now text on the UI</doc>
 <tag>regression</tag>
-<status status="PASS" starttime="20221006 23:53:18.271" endtime="20221006 23:53:23.100"/>
+<status status="PASS" starttime="20221008 17:00:23.062" endtime="20221008 17:00:27.651"/>
 </test>
 <test id="s1-s5-t3" name="TC_3: Click on Dispense Now Button and validate text that says “Cash dispensed”">
 <kw name="Navigate to Oppenheimer Project" library="Oppenheimer_common">
@@ -1398,26 +2076,26 @@ Without any arguments.</msg>
 <arg>${base_URL}</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20221006 23:53:23.109" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/'.</msg>
-<status status="PASS" starttime="20221006 23:53:23.108" endtime="20221006 23:53:25.664"/>
+<msg timestamp="20221008 17:00:27.651" level="INFO">Opening browser 'chrome' to base url 'http://localhost:8080/'.</msg>
+<status status="PASS" starttime="20221008 17:00:27.651" endtime="20221008 17:00:29.877"/>
 </kw>
 <kw name="Set Screenshot Directory" library="SeleniumLibrary">
 <arg>EMBED</arg>
 <doc>Sets the directory for captured screenshots.</doc>
-<status status="PASS" starttime="20221006 23:53:25.665" endtime="20221006 23:53:25.666"/>
+<status status="PASS" starttime="20221008 17:00:29.877" endtime="20221008 17:00:29.877"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20221006 23:53:25.666" endtime="20221006 23:53:25.809"/>
+<status status="PASS" starttime="20221008 17:00:29.877" endtime="20221008 17:00:30.008"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:23.107" endtime="20221006 23:53:25.809"/>
+<status status="PASS" starttime="20221008 17:00:27.651" endtime="20221008 17:00:30.008"/>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>${Dispense_button}</arg>
 <arg>Dispense Now</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20221006 23:53:25.810" level="INFO">Verifying element '//*[@class= 'btn btn-danger btn-block']' contains exact text 'Dispense Now'.</msg>
-<status status="PASS" starttime="20221006 23:53:25.810" endtime="20221006 23:53:25.842"/>
+<msg timestamp="20221008 17:00:30.008" level="INFO">Verifying element '//*[@class= 'btn btn-danger btn-block']' contains exact text 'Dispense Now'.</msg>
+<status status="PASS" starttime="20221008 17:00:30.008" endtime="20221008 17:00:30.039"/>
 </kw>
 <kw name="Dispense taxRelief" library="Oppenheimer_common">
 <arg>${Dispense_button}</arg>
@@ -1425,46 +2103,46 @@ Without any arguments.</msg>
 <kw name="Click Element" library="SeleniumLibrary">
 <arg>${Dispense_button}</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<msg timestamp="20221006 23:53:25.843" level="INFO">Clicking element '//*[@class= 'btn btn-danger btn-block']'.</msg>
-<status status="PASS" starttime="20221006 23:53:25.842" endtime="20221006 23:53:26.161"/>
+<msg timestamp="20221008 17:00:30.039" level="INFO">Clicking element '//*[@class= 'btn btn-danger btn-block']'.</msg>
+<status status="PASS" starttime="20221008 17:00:30.039" endtime="20221008 17:00:30.387"/>
 </kw>
-<status status="PASS" starttime="20221006 23:53:25.842" endtime="20221006 23:53:26.162"/>
+<status status="PASS" starttime="20221008 17:00:30.039" endtime="20221008 17:00:30.387"/>
 </kw>
 <kw name="Element Text Should Be" library="SeleniumLibrary">
 <arg>${cash_dispensed_text}</arg>
 <arg>Cash dispensed</arg>
 <doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
-<msg timestamp="20221006 23:53:26.162" level="INFO">Verifying element '//*[@class='display-4 font-weight-bold']' contains exact text 'Cash dispensed'.</msg>
-<status status="PASS" starttime="20221006 23:53:26.162" endtime="20221006 23:53:26.190"/>
+<msg timestamp="20221008 17:00:30.387" level="INFO">Verifying element '//*[@class='display-4 font-weight-bold']' contains exact text 'Cash dispensed'.</msg>
+<status status="PASS" starttime="20221008 17:00:30.387" endtime="20221008 17:00:30.410"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20221006 23:53:26.191" endtime="20221006 23:53:28.291"/>
+<status status="PASS" starttime="20221008 17:00:30.410" endtime="20221008 17:00:32.550"/>
 </kw>
 <doc>This test case is clicking on Dispense now button
 and navigate to the next page and validate text that says “Cash dispensed”</doc>
 <tag>regression</tag>
 <tag>sanity</tag>
-<status status="PASS" starttime="20221006 23:53:23.103" endtime="20221006 23:53:28.293"/>
+<status status="PASS" starttime="20221008 17:00:27.651" endtime="20221008 17:00:32.550"/>
 </test>
-<status status="PASS" starttime="20221006 23:53:13.876" endtime="20221006 23:53:28.297"/>
+<status status="PASS" starttime="20221008 17:00:18.207" endtime="20221008 17:00:32.550"/>
 </suite>
-<status status="PASS" starttime="20221006 23:53:00.833" endtime="20221006 23:53:28.306"/>
+<status status="PASS" starttime="20221008 17:00:05.340" endtime="20221008 17:00:32.550"/>
 </suite>
 <statistics>
 <total>
-<stat pass="16" fail="0" skip="0">All Tests</stat>
+<stat pass="18" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
-<stat pass="16" fail="0" skip="0">regression</stat>
-<stat pass="6" fail="0" skip="0">sanity</stat>
+<stat pass="18" fail="0" skip="0">regression</stat>
+<stat pass="8" fail="0" skip="0">sanity</stat>
 </tag>
 <suite>
-<stat pass="16" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
+<stat pass="18" fail="0" skip="0" id="s1" name="Tests">Tests</stat>
 <stat pass="5" fail="0" skip="0" id="s1-s1" name="User Story 1">Tests.User Story 1</stat>
 <stat pass="5" fail="0" skip="0" id="s1-s2" name="User Story 2">Tests.User Story 2</stat>
 <stat pass="2" fail="0" skip="0" id="s1-s3" name="User Story 3">Tests.User Story 3</stat>
-<stat pass="1" fail="0" skip="0" id="s1-s4" name="User Story 4">Tests.User Story 4</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s4" name="User Story 4">Tests.User Story 4</stat>
 <stat pass="3" fail="0" skip="0" id="s1-s5" name="User Story 5">Tests.User Story 5</stat>
 </suite>
 </statistics>
